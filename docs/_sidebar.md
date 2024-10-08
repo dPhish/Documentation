@@ -1,4 +1,4 @@
-* [- Welcome](/ "Welcome Page")
+* [- Welcome](welcome.md "Welcome Page")
 * [- Quick start](getting-started.md "Quick Start")
 * [- Do](do.md "Do")
     - [- Campaigns]()

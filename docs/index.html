@@ -82,6 +82,9 @@
     .sidebar-nav {
       padding-inline-start: 10px;
     }
+    .section.cover.show{
+      background: linear-gradient(to left bottom, hsl(246, 100%, 85%) 0%,hsl(74, 100%, 85%) 100%) !important
+    }
   </style>
 </head>
 <body>
@@ -94,6 +97,11 @@
 
   <script>
     window.$docsify = {
+      coverpage: true,
+      onlyCover: false,
+      routerMode: 'history',
+      name: 'dPhish',
+      // repo: 'https://github.com/dPhish/Documentation',
       el: '#main',
       mergeNavbar: true,
       loadNavbar: true,
@@ -102,8 +110,6 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       auto2top: true,
-      name: '',
-      repo: '',
       keyBindings: {
         focusSearch: true,
         toggleSidebar: true,
