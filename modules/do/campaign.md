@@ -216,6 +216,8 @@ supporting security monitoring and target behavior analysis. Key details include
         - To request a downloadable executive report, click the Download button next to the Report button. An email with a download link will be sent to the email address associated with the logged-in user who made the request.
 
             ![Do-Phish executive_report_header!](../../assets/do/executive_report_header_two.png "Do-Phish executive_report_header")
+            
+            ![Do-Phish report!](../../assets/do/report_example.png "Do-Phish report")
 
     2. **Edit the Campaign**  Click this button to be redirected to the edit page, where you can modify the  campaign settings.
         
