@@ -1,7 +1,8 @@
 * [- Welcome](welcome.md "Welcome Page")
 * [- Quick start](getting-started.md "Quick Start")
-* [- Do](do.md "Do")
-    - [- Campaigns]()
+* [- Do](modules/do/do.md "Do")
+    - [- Campaigns](modules/do/campaign.md "campaign")
+        <!-- - [- Main Page](do/campaign?id=main-page "campaign") -->
     - [- Campaigns groups]()
     - [- Post Campaigns]()
     - [- Emulations]()
