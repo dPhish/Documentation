@@ -4,7 +4,7 @@
     - [- Campaigns](modules/do/campaign.md "campaign")
         <!-- - [- Main Page](do/campaign?id=main-page "campaign") -->
     - [- Campaigns groups](modules/do/campaign_group.md "Campaigns groups")
-    - [- Post Campaigns]()
+    - [- Post Campaigns](modules/do/post_campaign.md "Post Campaigns")
     - [- Emulations]()
     - [- Attacks]()
 * [- Drill](drill.md "Drill")
