@@ -3,7 +3,7 @@
 * [- Do](modules/do/do.md "Do")
     - [- Campaigns](modules/do/campaign.md "campaign")
         <!-- - [- Main Page](do/campaign?id=main-page "campaign") -->
-    - [- Campaigns groups]()
+    - [- Campaigns groups](modules/do/campaign_group.md "Campaigns groups")
     - [- Post Campaigns]()
     - [- Emulations]()
     - [- Attacks]()
