@@ -50,8 +50,11 @@
 
 ***
 
-- **Attacks** Select the attacks to be used in the emulation campaign. Each attack may contain multiple payloads.
+##### Attacks 
+Select the attacks to be used in the emulation campaign. Each attack may contain multiple payloads.
 
-- **Sender** Select the sender that will be used to deliver the attacks to the target.
+#### Sender 
+Select the sender that will be used to deliver the attacks to the target.
 
-- **Target** Select the target that will receive the attack payload.
+#### Target
+Select the target that will receive the attack payload.
