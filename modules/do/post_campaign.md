@@ -67,18 +67,20 @@
 
         - **Send Email** Sends an email containing awareness information or a policy once the condition is met.
             - **Template** Select the template to be sent to the target via email.
-            Only templates with the announcement category will be displayed
+            > [!NOTE]
+            > Only templates with the **announcement** category will be displayed
 
             - **Sender** Select the sender that will send the email.
-            Only Pages with the announcement category will be displayed
 
             - **Assign Course** Automatically assigns a course to the target and sends an email notification. If the target does not have LMS access, the system will create an account and email the credentials along with the course assignment.
                 - **Course** Select the course to be assigned to the target once the condition is met.
             
             - **Redirect Page** Redirects the target to a page with awareness tips or policy information.
                 - **Page** Select the page to which the target will be redirected.
-                Only Pages with the announcement category will be displayed
-            
+                
+                > [!NOTE]
+                > Only Pages with the **announcement** category will be displayed
+                 
             - **Add Tag to Target Info** Adds tag to the target with the condition name automatically so, the admin can perform another campaign on them again and be easy to select them by tag.
 
             - **Add To Drill Group** Adds targets that meet the condition to a group named after the condition, allowing the admin to assign a course to all members of the group. You can find the group under `Drill > Groups`.
