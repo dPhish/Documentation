@@ -5,7 +5,9 @@
 
 In the `Announcements tab`, key indicators at the top display the total count of created announcements. Administrators can adjust the pagination settings at the bottom of the page to control the number of announcements displayed per page, enabling efficient navigation through the list. 
 
-![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+![Drill-Phish announcements main!](../../assets/drill/announcements/main.png "Drill-Phish announcements main")
+
+---
 
 # Announcements Features
 
@@ -56,7 +58,7 @@ In the `Announcements tab`, key indicators at the top display the total count of
 
 To create a new campaign, click the "New Announcement" button. This will direct you to the campaign creation interface.  
 
-![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+![Drill-Phish announcements new button!](../../assets/drill/announcements/new_announcement_button.png "Drill-Phish announcements new button")
 
 # Announcements Details and Metadata
 
@@ -85,13 +87,13 @@ creation process.
 
     This section displays all campaign settings, including the campaign name, number of templates used, selected page, campaign category (e.g., Awareness or Policy), current status (either "Created" or "Done"), and the campaign start date. 
 
-    ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+    ![Drill-Phish announcements campaign management!](../../assets/drill/announcements/campain_management.png "Drill-Phish announcements campaign management")
 
  - ## Tracks Timeline 
 
     Once the campaign is launched, this section displays data on key metrics, including the percentage of emails received, emails opened, accepted, and those received but not accepted. 
 
-    ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+    ![Drill-Phish announcements campaign tracking timeline!](../../assets/drill/announcements/campain_tracking_timeline.png "Drill-Phish announcements campaign tracking timeline")
 
  - ## Announcement Targets 
 
@@ -99,7 +101,7 @@ creation process.
     Here, you can customize the number of targets displayed by adjusting the pagination settings  
     at the bottom of the box. 
 
-    ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+    ![Drill-Phish announcements targets!](../../assets/drill/announcements/announcements_targets.png "Drill-Phish announcements targets")
 
     1. Search Functionality 
 
@@ -133,19 +135,20 @@ creation process.
            
         - When adding a new target, the Name and Email fields are mandatory. Other fields—such as title, phone, and location—are optional but recommended. Leaving these optional fields empty may limit the functionality of targeted selection by metadata (e.g., selecting by title or location). Filling out these fields enhances the accuracy and flexibility of target selection in future campaigns. 
 
-    ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+    ![Drill-Phish announcements new target configurations!](../../assets/drill/announcements/new_target_configurations.png "Drill-Phish announcements new target configurations")
 
     7. Actions
 
         - Tracker 
             The **“Tracker”** button allows administrators to monitor the interactions and actions of a specific target throughout the campaign duration. This feature provides real-time insights into the target’s engagement and response to the campaign since its launch The Track Target Actions button allows administrators to monitor the interactions and actions of a specific target throughout the campaign duration. This feature provides real-time insights into the target’s engagement and response to the campaign since its launch. 
 
-      ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
-      
+        ![Drill-Phish announcements tracker action button!](../../assets/drill/announcements/target_action_button.png "Drill-Phish announcements tracker action button")
+
         - Tracker Details 
             The **“Tracker Details”** feature provides in-depth information on specific actions taken by a target. This includes details such as the location from which the target submitted their credentials, IP address, VPN usage, and the user agent (e.g., Chrome, Microsoft Edge) used for access. This detailed view supports security monitoring and enhances understanding of target behavior within the campaign. 
+        
+        ![Drill-Phish announcements tracker details for specific target!](../../assets/drill/announcements/details_specific_target.png "Drill-Phish announcements tracker details for specific target")
 
-        ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
 
         - **Delete**: Removes the selected target from the campaign.Removes the selected target from the campaign.
 
@@ -160,7 +163,7 @@ creation process.
 
     - **User Agent**: Browser or app used (e.g., Chrome, Edge).  
 
-    ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+        ![Drill-Phish announcements tracker latest trackers section!](../../assets/drill/announcements/latest_trackers_section.png "Drill-Phish announcements tracker latest trackers section")
 
  - ## Header
     
@@ -168,10 +171,10 @@ creation process.
 
         Click this button to be redirected to the edit page, where you can modify the campaign settings. 
         
-        ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+        ![Drill-Phish announcements edit for specific campaign!](../../assets/drill/announcements/edit_specific_announcement_campain.png "Drill-Phish announcements edit for specific campaign")
 
     2. **Launch the Announcement Campaign**
 
         Use this button to **Launch** the campaign. You can also view the **Launch History** to track previous launches and terminate specific ones if needed. A pop-up displays each launch’s **Created Date, Status, Is Scheduled** (e.g., scheduled with a start date), and **Date Done**.  
             
-        ![Do-Phish overview!](../../assets/do/emulations/overview.png "Do-Phish overview")
+        ![Drill-Phish announcements history campaign!](../../assets/drill/announcements/history_announcement_campain.png "Drill-Phish announcements history campaign")
