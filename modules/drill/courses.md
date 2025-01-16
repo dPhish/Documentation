@@ -105,7 +105,6 @@ This section provides comprehensive course information, including the number of 
 
 ![Drill-Phish courses metadata!](../../assets/drill/courses/course_metadata.png "Drill-Phish courses metadata")
 
-
 ---
 
 ## Course Management Section
