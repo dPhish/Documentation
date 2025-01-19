@@ -1,5 +1,6 @@
 * [- Welcome](welcome.md "Welcome Page")
 * [- Quick start](getting-started.md "Quick Start")
+* [- Dashbord](modules/HomeDashboard/home_dashboard.md "Dashboard")
 * [- Do](modules/do/do.md "Do")
     - [- Campaigns](modules/do/campaign.md "campaign")
         <!-- - [- Main Page](do/campaign?id=main-page "campaign") -->
