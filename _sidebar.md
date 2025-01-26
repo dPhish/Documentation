@@ -7,7 +7,7 @@
     - [- Campaigns groups](modules/do/campaign_group.md "Campaigns groups")
     - [- Post Campaigns](modules/do/post_campaign.md "Post Campaigns")
     - [- Emulations](modules/do/emulation.md "Emulations")
-    - [- Attacks]()
+    - [- Attacks](modules/do/attacks.md "Attacks")
 * [- Drill](modules/drill/drill.md "Drill")
     - [- Courses](modules/drill/courses.md "Courses")
     - [- Stories](modules/drill/stories.md "Stories")

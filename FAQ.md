@@ -40,6 +40,7 @@ To ensure that the template or page appears during the creation of the announcem
 Do hard refresh `ctrl + shift + R` or `ctrl + f5`
 
 # Image issues in templates
+
 # Course Assign Notification Issue
 
 # Credentials not working for LMS 
