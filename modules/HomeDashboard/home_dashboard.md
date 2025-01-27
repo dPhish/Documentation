@@ -41,9 +41,9 @@
 
 ![Home-Phish dashboard do statictics!](../../assets/dashboard/do_statictics.png "Home-Phish dashboard do statictics")
 
-4. **Top Used Campaign**: Highlights the campaign with the highest number of achieved trackers.
+4. **Top Used Campaign**: Highlights the campaign with the highest number of targets and trackers.
 5. **Success Categories**: Summarizes successful categories across launched campaigns with a percentage chart and the total count for each category.
-6. **Top Campaigns**: Lists the top 5 campaigns that collected the most trackers.
+6. **Top Campaigns**: List the top 5 campaigns where the success category is `Tracker`.
 7. **Last Created Campaign**: Displays details of the most recently created campaign, including campaign type, number of targets included, and scheduling status.
 8. **Top 5 Reporting Employees**: Identifies the top 5 targets who `reported` phishing simulation emails using the `add-on`.
 9. **Top 5 Faild Departments**: Shows the top 5 departments with the highest failure rates, represented as a percentage chart. This analysis requires the department field to be declared for each target in the tenant.
