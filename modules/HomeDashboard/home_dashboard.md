@@ -41,7 +41,7 @@
 
 ![Home-Phish dashboard do statictics!](../../assets/dashboard/do_statictics.png "Home-Phish dashboard do statictics")
 
-4. **Top Used Campaign**: Highlights the campaign with the highest number of targets and trackers.
+4. **Top Used Campaign**: Highlights the campaign with the highest number of `targets` and `trackers`.
 5. **Success Categories**: Summarizes successful categories across launched campaigns with a percentage chart and the total count for each category.
 6. **Top Campaigns**: List the top 5 campaigns where the success category is `Tracker`.
 7. **Last Created Campaign**: Displays details of the most recently created campaign, including campaign type, number of targets included, and scheduling status.
