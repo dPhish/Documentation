@@ -65,54 +65,6 @@ We can solve it through:
 
 ---
 
-## There are 2 stores:
-
-1. Egypt Store
-2. KSA Store
-
-- Egypt Store = https://demoksa.dphish.live/ 
-- KSA Store = https://store.dphish.live/
-
-We can solve it through:
-
-- **Egypt** Store = `Demoksa`
-
-- **KSA** Store = `Store`
-
----
-
-## notification@dphish.com
-
-`.com` Notification Sender’s Credentials
-
-We can solve it through:
-
-- `TLS`: True
-- `Password`: *********
-- `Port`: 587
-- `Host`: smtp.office365.com
-- `From`: Cybersecuiry Notification <notification@dphish.com>
-
----
-
-## notification@dphish.live
-
-`.live` Notification Sender’s Credentials
-
-We can solve it through:
-
-- `TLS`: True
-
-- `Password`: *********
-
-- `Port`: 587
-
-- `Host`: mail.dphish.live
-
-- `From`: dPhish Notification <notifications@dphish.live>
-
----
-
 ## Difference between Support Mobile & Support Phone (in Settings > LMS)
 
 We can solve it through:
