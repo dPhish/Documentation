@@ -61,7 +61,7 @@ Templates may experience CSS-related issues that affect their layout and visual 
 
 5. **Clear Cache**: 
 
-    - Perform a hard refresh (Ctrl + Shift + R or Cmd + Shift + R) to ensure the latest CSS changes are applied. 
+    - Perform a hard refresh (`Ctrl` + `Shift` + `R` or `Cmd` + `Shift` + `R`) to ensure the latest CSS changes are applied. 
 
 If the issue persists, consider reviewing the template’s CSS structure or consulting with the development team for further troubleshooting. 
 
@@ -172,7 +172,7 @@ This process ensures that specific target data or all tracking data within a cam
 
 **Overview**: 
 
-In Settings > LMS, you will find two distinct fields: Support Mobile and Support Phone. 
+In `Settings` > `LMS`, you will find two distinct fields: `Support Mobile` and `Support Phone`. 
 
 **Key Differences**: 
 
@@ -188,7 +188,7 @@ Ensure both fields are configured accurately to maintain consistent support info
 
 **Issue**: 
 
-When Drill Users attempt to log in to the platform, they do not receive the One-Time Password (OTP) required for authentication. 
+When `Drill Users` attempt to log in to the platform, they do not receive the `One-Time Password (OTP)` required for authentication. 
 
 **Solution**: 
 
