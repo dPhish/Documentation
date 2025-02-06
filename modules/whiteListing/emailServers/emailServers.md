@@ -4,9 +4,9 @@ Before launching a phishing campaign, configuring whitelisting on email servers 
 
 --- 
 
-### Office365 
+### How to Whitelist Using the dphish Phishing Simulations Feature in Office 365:
 
-- To successfully whitelist emails for dPhish phishing simulations in Office 365, please follow the steps below. Ensure that you have security administrator privileges within the Microsoft Security Center before proceeding. 
+- To successfully whitelist emails for dphish phishing simulations in Office 365, please follow the steps below. Ensure that you have security administrator privileges within the Microsoft Security Center before proceeding.
 
     1. Sign in to the `Microsoft Security` Center using your security administrator credentials. 
 

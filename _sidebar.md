@@ -47,4 +47,5 @@
 * [- Whitelisting](modules/whiteListing/whiteListing.md "Whitelisting")
     - [- Email Gateway](modules/whiteListing/emailGateway/emailGateway.md "Email Gateway")
     - [- Email Servers](modules/whiteListing/emailServers/emailServers.md "Email Servers")
+    - [- Safe Sender](modules/whiteListing/safeSender/safeSender.md "Safe Sender")
     - [- Web Proxy](modules/whiteListing/webProxy/webProxy.md "Web Proxy")
