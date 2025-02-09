@@ -26,7 +26,7 @@ installed on the system.
 
 ### Step-by-Step Guide
 
-1. **How to Install Exchange Online PowerShell Module**: 
+1. **How to Install Exchange Online PowerShell Module**:
 
     - Open PowerShell as Administrator. 
 
@@ -94,7 +94,7 @@ To ensure proper validation of the following steps, it is recommended to use an 
 
     - Scroll down to the `Safe senders and domains` section. Review the listed entries to confirm the correct configuration.
 
-![WhiteListing safe sender and domain!](../../assets/whiteListing/safe_sender_domain.png "WhiteListing safe sender and domain")
+![WhiteListing safe sender and domain!](../../../assets/whiteListing/safe_sender_domain.png "WhiteListing safe sender and domain")
 
 ---
 
@@ -120,7 +120,7 @@ To ensure proper validation of the following steps, it is recommended to use an 
 
     - In the `Junk Email Options` window, select the `Safe Senders` tab to manage the list of safe senders and domains.
 
-![WhiteListing safe sender junk email!](../../assets/whiteListing/safe_sender_junk.png "WhiteListing Safe Sender Junk")
+![WhiteListing safe sender junk email!](../../../assets/whiteListing/safe_sender_junk.png "WhiteListing Safe Sender Junk")
 
 
-![WhiteListing safe sender!](../../assets/whiteListing/safe_sender.png "WhiteListing Safe Sender")
+![WhiteListing safe sender!](../../../assets/whiteListing/safe_sender.png "WhiteListing Safe Sender")
