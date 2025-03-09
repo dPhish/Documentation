@@ -1,13 +1,3 @@
-# Frequently Asked Questions (FAQ)
-
-- [Why was my phishing email not delivered?](#why-was-my-phishing-email-not-delivered)
-- [CSS issue in templates](#css-issue-in-templates)
-- [Is the tracker host empty?](#is-the-tracker-host-empty)
-- [Couldn’t find the Announcement template or the Announcement page?](#couldnt-find-the-announcement-template-or-the-announcement-page)
-- [Redirect to Dashboard when clicking on any tap](#redirect-to-dashboard-when-clicking-on-any-tap)
-
-
-
 ## Why was my phishing email not delivered?
 
 We can solve it through `4 steps`:

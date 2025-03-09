@@ -245,3 +245,44 @@ The Templates module requires permissions from:
 The Sender module requires permissions from:
 - **Sender**  
 - **Report**  
+
+---
+
+## Platform
+
+### 1) Roles and Permissions
+The Roles and Permissions module requires permissions from:
+- **Roles**  
+
+### 2) Users
+The Users module requires permissions from:
+- **User**  
+
+### 3) Tickets
+The Tickets module requires permissions from:
+- **Ticket**  
+- **Ticketcomment**
+
+### 4) Files
+The Files module requires permissions from:
+- **Files**  
+
+### 5) Logs
+The Logs module requires permissions from:
+- **Activitylog**  
+
+### 6) Tasks
+The Tasks module requires permissions from:
+- **Taskmetainfo**  
+
+### 7) Stores
+The Stores module requires permissions from:
+- **Can View Stores in Platform Permission**
+
+### 8) Email Services
+The Email Services module requires permissions from:
+- **Emailservice**
+
+### 9) Email Templates
+The Email Templates module requires permissions from:
+- **Template**
