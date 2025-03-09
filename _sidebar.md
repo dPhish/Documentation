@@ -34,6 +34,7 @@
     - [- Templates](modules/utilities/templates.md "Templates")
     - [- Sender](modules/utilities/sender.md "Sender")
 * [- Platform](modules/platform/platform.md "Platform")
+    - [- Roles](modules/platform/roles.md "Roles")
     - [- Users](modules/platform/users.md "Users")
     - [- Tickets](modules/platform/tickets.md "Tickets")
     - [- Files](modules/platform/files.md "Files")
