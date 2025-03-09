@@ -3,6 +3,8 @@
 ## Overview
 The `Roles` and `Permissions` module allows administrators to define access control by assigning specific permissions to different roles. This ensures that users only have access to the functionalities required for their responsibilities.
 
+![Platform-Phish roles main!](../../assets/platform/roles/role_list.png "Platform-Phish roles main")
+
 ## Features
 - Create and manage roles.
 - Assign permissions to roles.
@@ -28,9 +30,13 @@ This page allows administrators to create new roles and define their permissions
 3. Select the required permissions by checking the boxes.
 4. Click Save to create the role.
 
+![Platform-Phish roles add role button!](../../assets/platform/roles/add_role_button.png "Platform-Phish roles add role button")
+
 ### 2. Assigning Permissions
 - Administrators can manually select individual permissions.
 - Using the Select All option will assign all available permissions to the role.
+
+![Platform-Phish roles permissions!](../../assets/platform/roles/permissions.png "Platform-Phish roles permissions")
 
 ### 3. Editing a Role
 1. Navigate to the Roles List page.
@@ -54,6 +60,25 @@ The assigned permissions determine what actions a user can perform in the system
 ---
 
 ## Modules and Required Permissions
+
+### Dashboaard
+The Dashboard module requires permissions from:
+- **Platform**
+- **Riskscore**
+
+#### Main
+- **Can View Main Dashboard**
+- **Can Run Risk Score**
+
+#### Do
+- **Can View Do Dashboard**
+
+#### Drill
+- **Can View Drill Dashboard**
+
+#### Detect
+- **Can View Detect Dashboard**
+---
 
 ### Do
 
@@ -179,3 +204,44 @@ The Leaked Credentials module requires permissions from:
 #### 4) Response
 The Response module requires permissions from:
 - **Run response in Email Permission**
+
+---
+
+## Analytics
+
+### 1) Reports
+The Reports module requires permissions from:
+- **Report**  
+
+### 2) Trackers
+The Trackers module requires permissions from:
+- **Tracker**  
+- **Report**  
+
+### 3) Credentials
+The Credentials module requires permissions from:
+- **Credentials**  
+- **Report**  
+
+---
+
+## Utilities
+
+### 1) Target
+The Target module requires permissions from:
+- **Target**  
+- **Drilluser**  
+
+### 2) Pages
+The Pages module requires permissions from:
+- **Page**  
+
+### 3) Templates
+The Templates module requires permissions from:
+- **Template**  
+- **Report**  
+
+### 4) Sender
+The Sender module requires permissions from:
+- **Sender**  
+- **Report**  
