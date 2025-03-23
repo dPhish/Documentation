@@ -66,17 +66,17 @@ The Dashboard module requires permissions from:
 - **Platform**
 - **Riskscore**
 
-#### Main
+#### 1) Main
 - **Can View Main Dashboard**
 - **Can Run Risk Score**
 
-#### Do
+#### 2) Do
 - **Can View Do Dashboard**
 
-#### Drill
+#### 3) Drill
 - **Can View Drill Dashboard**
 
-#### Detect
+#### 4) Detect
 - **Can View Detect Dashboard**
 ---
 
@@ -112,6 +112,7 @@ The Emulations module requires permissions from:
 - **Target**
 - **Attack**
 - **Tickets**
+- **Report**
 
 ### 5) Attacks
 The Attacks module requires permissions from:

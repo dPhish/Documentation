@@ -50,3 +50,5 @@
     - [- Email Servers](modules/whiteListing/emailServers/emailServers.md "Email Servers")
     - [- Safe Sender](modules/whiteListing/safeSender/safeSender.md "Safe Sender")
     - [- Web Proxy](modules/whiteListing/webProxy/webProxy.md "Web Proxy")
+* [- Integrations](modules/integrations/integrations.md "Integrations")
+    - [- SSO](modules/integrations/sso.md "SSO")
