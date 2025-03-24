@@ -1,4 +1,4 @@
-## dPhish – SSO Integration
+## SSO Integration
 
 ### Configure SAML Single Sign On with AD-FS
 
