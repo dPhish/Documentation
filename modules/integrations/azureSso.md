@@ -47,3 +47,42 @@
 ![Azure-Phish Platform navigate to Platform!](../../assets/integrations/azureSSo/email_services.png "Azure-Phish Platform navigate to Platform")
 
 ---
+
+#### if you would like to use the same service for import target
+- we need to add the following permission `User.ReadAll`
+
+#### if you would like to use the same service for Response
+
+- we need to add the following permissions
+
+   1. Mail.Read
+
+   2. Mail.ReadWrite
+
+   3. SecurityAlert.Read.All
+
+   4. SecurityAlert.ReadWrite.All
+
+   5. SecurityAnalyzedMessage.Read.All
+
+   6. SecurityAnalyzedMessage.ReadWrite.All
+
+   7. SecurityEvents.ReadWrite.All
+
+   8. SecurityIncident.Read.All
+
+   9. SecurityIncident.ReadWrite.All
+
+   10. User.Read
+
+   11. User.Read.All
+
+#### issues
+
+1. make sure you are using secret value not secret id.
+
+2. make sure you use client id and tenant id correctly.
+
+3. The mailbox is either inactive, soft-deleted, or is hosted on-premise.
+
+---

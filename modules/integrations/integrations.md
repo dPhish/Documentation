@@ -1,6 +1,5 @@
 ## Overview
 
-> # Integrations
-- ### SSO Setup Guide
-
-- ### Azure SSO Setup Guide
+> ### Integrations:
+> - SSO Setup Guide 
+> - Azure SSO Setup Guide
