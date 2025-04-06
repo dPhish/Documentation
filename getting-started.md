@@ -6,14 +6,14 @@
 - Helps admins see what’s working and what needs fixing.
 
 ## Main Parts:
-### 1. Risk Score
+#### 1. Risk Score
 - Tells you how risky things are right now.
 - Based on:
   - Phishing tests (60%)
   - Employee training (30%)
   - Leaked passwords (10%)
 
-### 2. Risk Score Chart
+#### 2. Risk Score Chart
 - A graph showing how the risk changes day by day.
 
 ---
@@ -22,7 +22,7 @@
 - Shows `phishing test results`.
 - Tells you how employees react to fake phishing emails.
 
-## Key Sections:
+#### Key Sections:
 1. **Campaign Stats**: How many emails were sent and how people reacted (clicked links, entered passwords, etc.).
 2. **Top Campaigns**: Which tests worked best.
 3. **Top Reporters**: Employees who reported phishing emails the most.
@@ -35,7 +35,7 @@
 - Tracks `employee training progress`.
 - Shows who finished the courses and who didn’t.
 
-## Key Sections:
+#### Key Sections:
 1. **Courses Stats**: Total courses, users in training, missed deadlines.
 2. **Awareness Progress**: How employees improve over time.
 3. **Quiz Results**: Who passed or failed quizzes.
@@ -47,7 +47,7 @@
 - Shows `real threats` and `leaked data`.
 - Helps spot problems fast.
 
-## Key Sections:
+#### Key Sections:
 1. **Email Reports**: How many threats were reported.
 2. **Leaked Credentials**: Which employees have leaked passwords.
 3. **Threat Levels**: How dangerous reported emails are.
@@ -56,14 +56,14 @@
 ---
 
 # DO : Do-Phish Module - Quick Summary
-## Purpose:
+#### Purpose:
 Test employees and email systems against phishing.
 
-## Two Main Functions:
+#### Two Main Functions:
 1. **Phishing Simulation**: Sends fake emails to check if employees fall for phishing.
 2. **Adversary Emulation**: Tests if email security blocks harmful emails.
 
-## Key Parts:
+#### Key Parts:
 - **Campaigns**: Fake phishing tests.
 - **Campaign Groups**: Run many campaigns at once.
 - **Post Campaigns**: Train employees after they fail.
@@ -73,29 +73,29 @@ Test employees and email systems against phishing.
 ---
 
 # Campaigns:
-## What is a Do-Phish Campaign?
+#### What is a Do-Phish Campaign?
 - It's a `fake phishing attack` used to test how employees react.
 - Helps `measure awareness` and `improve security`.
 
-## What You Can Do With Campaigns
+#### What You Can Do With Campaigns
 1. Create phishing simulations (email, SMS, USB, QR codes).
 2. Test employee actions (click links, open files, enter passwords).
 3. Train employees after they fail (send courses, redirect to pages).
 
-## Campaign Management Basics
+#### Campaign Management Basics
 - Create Campaigns using an easy step-by-step wizard.
 - View and Manage campaigns (edit, launch, clone, delete).
 - Search and Filter campaigns by type, status, tags.
 - Track Results: who opened emails, clicked links, or entered data.
 - Post Actions: assign training or follow-ups to users who failed.
 
-## Campaign Target Management
+#### Campaign Target Management
 - Add Targets manually, via CSV, or through LDAP.
 - Track Target Actions: detailed info (IP, location, browser).
 - Export Data: download reports on campaign results.
 - Executive Reports: high-level summaries for management.
 
-## Types of Campaigns You Can Create
+#### Types of Campaigns You Can Create
 - Email with attachment
 - Email with page
 - Email/SMS with QR code
@@ -104,19 +104,19 @@ Test employees and email systems against phishing.
 - SMS phishing
 
 # Campaign Groups - Quick Summary
-## What?
+#### What?
 Group multiple campaigns together.
 
-## Why?
+#### Why?
 Manage them easily and get one combined `executive report`.
 
-## Key Actions:
+#### Key Actions:
 1. View group
 2. Edit group
 3. Delete group
 4. Download report for all campaigns
 
-### Inside the Group:
+#### Inside the Group:
 - See campaign names, types, status
 - Remove or delete campaigns
 - Track performance
@@ -124,51 +124,51 @@ Manage them easily and get one combined `executive report`.
 ---
 
 # Post Campaigns - Quick Overview
-## What are they?
+#### What are they?
 - Follow-up actions after a phishing test.
 - Triggered when a user does something risky (like clicking a link or entering credentials).
 
-## Main Purpose
+#### Main Purpose
 Teach users awareness after they fail a phishing test.
 
-## How It Works
+#### How It Works
 - You set a **Condition** (e.g., Link Opened, Credentials Saved).
 - If the condition happens, a **Reaction/Action** happens automatically.
 
-## Available Actions
+#### Available Actions
 - **Send Email**: Send an awareness email.
 - **Assign Course**: Give the user a training course.
 - **Redirect Page**: Send them to a page with tips or policies.
 - **Add Tag**: Tag users for future campaigns.
 - **Add to Drill Group**: Group them for bulk actions later.
 
-## Post Campaign Management
+#### Post Campaign Management
 - You can **Create, View, Edit, and Delete** post campaigns.
 - Search and Filter them easily.
 
 ---
 
 # Emulation Campaigns - Quick Overview
-## What are they?
+#### What are they?
 - Simulate `real email attacks` to test your `email security systems` (gateways, sandboxes).
 
-## Main Purpose
+#### Main Purpose
 - Check if `email security` blocks dangerous emails properly.
 - Make sure `filters` and `defenses` are working as they should.
 
-## How It Works
+#### How It Works
 1. You create an `Emulation Campaign`.
 2. Send fake `attack emails` at specific time intervals (to avoid auto-blocking).
 3. Test is done on `one target`, because all emails go through the same security system.
 
-## Key Settings
+#### Key Settings
 - **Campaign Name & Description**
 - **Interval (Seconds)**: Time between attacks
 - **Sender**: Who sends the attacks
 - **Target**: Who receives the test
 - **Attacks**: Types of attacks/payloads sent
 
-## Actions You Can Do
+#### Actions You Can Do
 1. View
 2. Edit
 3. Clone
@@ -180,13 +180,13 @@ Teach users awareness after they fail a phishing test.
 
 # Attacks Tab - Quick Overview
 
-## What is it?
+#### What is it?
 - A place to manage all `attacks` and `payloads` used in emulation campaigns.
 
-## Main Purpose
+#### Main Purpose
 Organize, create, and manage `attack scenarios` and their `payloads`.
 
-## Key Features
+#### Key Features
 - **List of Attacks**
   - Shows:
     - Name
@@ -196,7 +196,7 @@ Organize, create, and manage `attack scenarios` and their `payloads`.
     - Author info
     - GUID (unique ID)
 
-## Actions You Can Do
+#### Actions You Can Do
 1. View
 2. Edit
 3. Delete
@@ -204,7 +204,7 @@ Organize, create, and manage `attack scenarios` and their `payloads`.
 5. Create New Attack
 6. Add Payloads to an Attack
 
-## Payload Management
+#### Payload Management
 - **Payload** = The file or link used in the attack.
 - You can:
   - Add New Payloads
@@ -217,10 +217,10 @@ Organize, create, and manage `attack scenarios` and their `payloads`.
 
 # Drill Module
 
-## What is it?
+#### What is it?
 A training module to improve employee `security awareness`.
 
-## Key Features
+#### Key Features
 - Create ``interactive`` courses with `quizzes`.
 - Supports Arabic and `English`.
 - Target specific user groups for focused training.
@@ -234,29 +234,29 @@ A training module to improve employee `security awareness`.
 
 ## 1. Courses
 
-### What are they?
+#### What are they?
 - Interactive training courses to improve security awareness.
 
-### Main Features
+#### Main Features
 - Courses have `quizzes`, `videos`, `PDFs`, and `infographics`.
 - Support `Arabic` & `English` (multiple dialects).
 - Courses are grouped by level (Beginner, Intermediate, Advanced).
 - Each course has `deadlines`, `points`, and `progress tracking`.
 
-### What You Can Do
+#### What You Can Do
 - Create courses with custom content.
 - Assign `users`/`groups` manually or automatically.
 - Add `quizzes` and `FAQs` to test knowledge.
 - Track progress: who started, finished, or passed the quiz.
 - Get feedback with comments and ratings.
 
-### Content Types
+#### Content Types
 - Videos
 - Presentations (PDF)
 - Infographics
 - Walkthroughs (PDF)
 
-### Course Management Actions
+#### Course Management Actions
 - View / Edit / Delete
 - Search & Filter
 - Assign by `Company`, `Group`, or `Post Campaigns`
@@ -266,10 +266,10 @@ A training module to improve employee `security awareness`.
 
 ## 2. Stories
 
-### What?
+#### What?
 - Short, engaging `narratives` (videos or audio) to raise awareness.
 
-### Features:
+#### Features:
   - No quizzes or progress tracking.
   - You can `create`, `edit`, `delete` stories.
   - Add `videos`, `descriptions`, and `durations`.
@@ -278,10 +278,10 @@ A training module to improve employee `security awareness`.
 
 ## 3. Tracks
 
-### What?
+#### What?
 - A `group of courses` bundled into a single `learning path`.
 
-### Features:
+#### Features:
   - Organize related courses.
   - Define Level, Scope, Intro.
   - Add `images`, reviews`, and `activate/deactivate` tracks.
@@ -290,10 +290,10 @@ A training module to improve employee `security awareness`.
 
 ## 4. Categories
 
-### What?
+#### What?
 - Organize and `filter courses` into `categories` for better management.
 
-### Features:
+#### Features:
   - Define `Name`, `Head`, and `Description`.
   - `Create`, `edit`, or `delete` categories.
   - Helps users find relevant courses easily.
@@ -302,10 +302,10 @@ A training module to improve employee `security awareness`.
 
 ## 5. Groups
 
-### What?
+#### What?
 - Organize `users` into groups (e.g., by department or team).
 
-### Features:
+#### Features:
   - Easy course assignment to `multiple users` at once.
   - Manage `Group Name`, `Description`, and `Users`.
   - `Create`, `edit`, or `delete` groups.
@@ -314,22 +314,22 @@ A training module to improve employee `security awareness`.
 
 ## 6. Announcements
 
-### What is it?
+#### What is it?
 - `Awareness campaigns` sent by email to educate users.
 - Focus on `security tips`, `company policies`, and `best practices`.
 
-### Main Features
+#### Main Features
 - Works like phishing campaigns, but for `training`, not testing.
 - Supports `scheduling`, `target selection`, and `templates`.
 - No quizzes or tracking of mistakes—just `awareness`.
 
-### Campaign Setup
+#### Campaign Setup
 - Create Announcement
 - Choose Category (Awareness, Policy, Others)
 - Add `Template` & `Page`
 - Select `Targets` (users/groups)
 
-### What You Can Do
+#### What You Can Do
 - View / Edit / Delete announcements
 - Track Engagement:
   - Emails sent, opened, accepted
@@ -384,14 +384,14 @@ A training module to improve employee `security awareness`.
 
 # Detect
 
-## What is it?
+#### What is it?
 - A platform that `detects and analyzes phishing emails`.
 - Gives security teams `one dashboard` to review reports and take action.
 - Includes `ticketing`, `triage`, and `response tools`.
 
-## Main Components:
+#### Main Components:
 
-### 1. Analyzed Emails
+##### 1. Analyzed Emails
 - Shows all reported phishing emails in one place.
 - Key details include:
   - Email Subject
@@ -403,7 +403,7 @@ A training module to improve employee `security awareness`.
   - Change Status (Open, In Progress, Resolved)
   - Response: Delete, Quarantine, Search by Sender/Subject
 
-### 2. Leaked Credentials
+##### 2. Leaked Credentials
 - Tracks `employee credentials` exposed in:
   - Malware logs
   - Public data breaches
@@ -413,7 +413,7 @@ A training module to improve employee `security awareness`.
   - Rescan leaked data
 - Impacts Risk Score (up to 10% of total risk).
 
-### 3. Indicators of Compromise (IOCs)
+##### 3. Indicators of Compromise (IOCs)
 - Lists `threat indicators` extracted from phishing reports.
 - Includes:
   - IP addresses
@@ -421,7 +421,7 @@ A training module to improve employee `security awareness`.
   - File hashes (SHA256)
 - You can `filter` or `export` this data for reports.
 
-### 4. Response Actions
+##### 4. Response Actions
 - Search for similar emails in the entire organization.
 - **Take actions like**:
   - Delete or Quarantine emails
@@ -432,19 +432,19 @@ A training module to improve employee `security awareness`.
 
 # Analytics
 
-## What is it?
+#### What is it?
 - A `dashboard` to track and analyze all activities on the platform.
 - Covers `Campaigns (Do)`, `Training (Drill)`, and `Threat Detection (Detect)`.
 - Helps admins `monitor performance` and `export reports`.
 
-## Main Sections:
+#### Main Sections:
 
-### 1. Reports
+###### 1. Reports
 - Shows `detailed reports` for Do, Drill, and Detect activities.
 - Includes `Executive Reports` that summarize everything in one file.
 - Reports are downloadable in `CSV`, `XLS`, or `JSON` formats.
 
-### 2. Trackers
+##### 2. Trackers
 - Displays `all user actions` during phishing simulations:
   - Emails opened
   - Links clicked
@@ -456,7 +456,7 @@ A training module to improve employee `security awareness`.
   - Public IP
 - You can `search`, `filter`, and `export` the data.
 
-### 3. Credentials
+##### 3. Credentials
 - Lists credentials entered by users during `phishing simulations`.
 - Displays:
   - Campaign name
