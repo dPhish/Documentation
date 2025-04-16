@@ -3,7 +3,7 @@
 
 ## Our Time
 
-Thanks goes to these awesome people for their wonderful contributions!
+Thanks go to these awesome people for their wonderful contributions!
 
 <!-- <table>
   <tr>
