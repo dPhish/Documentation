@@ -7,7 +7,7 @@ Once an investigation of a reported email is complete and the final verdict is m
 2. **Quarantine**: Same as delete, except the mail will be quarantined instead of deleted.
 3. **Scope by Sender**: Searches for emails in the organization that originated from sender as in the reported email.
 
-![Detect-Phish response main!](../../assets/detect/analyzedEmails/emails_response_actions.png "Detect-Phish response main")
+![Detect-Phish response main!](../../assets/detect/response/main.png "Detect-Phish response main")
 
 4. **Scope by Subject**: Searches for emails in the organization that have the same subject as the reported email.
 5. **Search**: Once the search is over, the page is populated with emails that matched the search criteria. Analysts can then take actions on these emails such as mass deletion or mass quarantine.

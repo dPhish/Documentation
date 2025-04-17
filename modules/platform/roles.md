@@ -1,4 +1,4 @@
-# Roles and Permissions Module Documentation
+# Roles and Permissions Module Documentation <!-- {docsify-ignore} -->
 
 ## Overview
 The `Roles` and `Permissions` module allows administrators to define access control by assigning specific permissions to different roles. This ensures that users only have access to the functionalities required for their responsibilities.
