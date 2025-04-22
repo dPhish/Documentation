@@ -151,7 +151,7 @@
       #toc-toggle {
   position: fixed;
   top: 15px;
-  right: 0 !important; /* ← بدلاً من left */
+  right: 0 !important;
   z-index: 999 !important;
   background: #f5f5f5;
   padding: 10px 12px;
@@ -161,12 +161,11 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* TOC الجانبي */
 .page_toc {
   position: fixed !important;
   top: 0 !important;
-  right: 0 !important;  /* بدل left */
-  left: auto !important; /* إلغاء اليسار */
+  right: 0 !important;
+  left: auto !important; 
   width: 280px !important;
   height: 100% !important;
   background: #fff !important;
@@ -178,21 +177,14 @@
   transition: transform 0.3s ease;
 }
 
-/* عند إظهاره */
 .page_toc.active {
   transform: translateX(0);
 }
 
-/* المحتوى الأساسي */
 .content {
   transition: margin-right 0.3s ease;
 }
 
-/* .content.shifted {
-  margin-right: 280px !important;
-} */
-
-/* Scroll */
 .page_toc::-webkit-scrollbar {
   width: 6px;
 }
@@ -207,12 +199,8 @@
   .page_toc.active {
     transform: translateX(0);
   }
-  /* .content.shifted {
-    margin-right: 280px;
-  } */
 }
 
-/* Always show on large screens */
 @media (min-width: 1024px) {
   .page_toc {
     transform: none !important;
@@ -237,25 +225,23 @@
 
     <div data-app id="main">Please wait...</div>
 
-    <div id="toc-toggle" onclick="toggleTOC()">
-      ☰ <!-- يمكنك استبدالها بأيقونة FontAwesome مثلاً -->
-    </div>
+    <div id="toc-toggle" onclick="toggleTOC()">☰</div>
 
     <script>
 
-function toggleTOC() {
-  const toc = document.querySelector('.page_toc');
-      const content = document.querySelector('.content');
-      if (toc) toc.classList.toggle('active');
-      if (content) content.classList.toggle('shifted');
-}
+      function toggleTOC() {
+        const toc = document.querySelector('.page_toc');
+            const content = document.querySelector('.content');
+            if (toc) toc.classList.toggle('active');
+            if (content) content.classList.toggle('shifted');
+      }
 
       window.$docsify = {
         toc: {
           tocMaxLevel: 3,
           target: 'h2, h3, h4',
           ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->'],
-          position: 'right' // ← للمساعدة في تحديد الاتجاه
+          position: 'right'
         },
         coverpage: true,
         onlyCover: false,
