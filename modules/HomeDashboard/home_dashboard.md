@@ -46,8 +46,8 @@
 6. **Top Campaigns**: List the top 5 campaigns where the success category is `Tracker`.
 7. **Last Created Campaign**: Displays details of the most recently created campaign, including campaign type, number of targets included, and scheduling status.
 8. **Top 5 Reporting Employees**: Identifies the top 5 targets who `reported` phishing simulation emails using the `add-on`.
-9. **Top 5 Faild Departments**: Shows the top 5 departments with the highest failure rates, represented as a percentage chart. This analysis requires the department field to be declared for each target in the tenant.
-10. **Top 5 Faild Targets**: Displays the top 5 targets who failed in simulation campaigns by achieving the success category of the campaign (e.g., link_opened, credentials_saved, etc.).
+9. **Top 5 Failed Departments**: Shows the top 5 departments with the highest failure rates, represented as a percentage chart. This analysis requires the department field to be declared for each target in the tenant.
+10. **Top 5 Failed Targets**: Displays the top 5 targets who failed in simulation campaigns by achieving the success category of the campaign (e.g., link_opened, credentials_saved, etc.).
 
 ![Home-Phish dashboard do analysis!](../../assets/dashboard/da_analysis.png "Home-Phish dashboard do analysis")
 
