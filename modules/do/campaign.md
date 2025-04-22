@@ -120,7 +120,7 @@ wizard entails:
 
 - **Select Sender, Page and Templates** Choose the sender responsible for dispatching the campaign emails to the targets. Next, select the page and templates that will be included in the emails sent to the targets.
 
-- **Post Campaign** After completing the campaign settings, you can select multiple post-campaign actions to be assigned. These post-campaigns are triggered upon achieving specific conditions, such as when a `link is opened`, or `credentials are saved` etc. (More Details)[`More Details`]
+- **Post Campaign** After completing the campaign settings, you can select multiple post-campaign actions to be assigned. These post-campaigns are triggered upon achieving specific conditions, such as when a `link is opened`, or `credentials are saved` etc.
 
 ***
 
