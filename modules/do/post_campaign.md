@@ -29,7 +29,7 @@
         - **Document Opened**
         - **Credentials Saved**
         - **Link Opened**
-        - **USP Opened**
+        - **USB Opened**
         - **Code Scanned**
         - **Stager Downloaded**
         - **File Opened**
@@ -57,7 +57,7 @@
         - **Document Opened**
         - **Credentials Saved**
         - **Link Opened**
-        - **USP Opened**
+        - **USB Opened**
         - **Code Scanned**
         - **Stager Downloaded**
         - **File Opened**

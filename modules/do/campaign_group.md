@@ -5,20 +5,26 @@
 
     1. **Name** The title of the group, which will be displayed in the admin panel.
     2. **Number of Campaigns** The number of the campaigns included in the group
-    3. **Actions**
+    3. **New Group** Click this option to create a new group and begin managing your campaigns within it.
+        ![Do-Phish Campaigns Group New Add Module!](../../assets/do/groups/add_delete_group.png "Do-Phish Campaigns Group New Add Module")
+        
+    4. **Actions**
 
         - **view** Click `View` to access the group and manage all campaigns within it. From here, you can also generate the executive report for the entire group.
 
         - **Edit** Click `Edit` to modify the group name and manage the campaigns included in the group.
-![Do-Phish Campaigns Group Edit Module!](../../assets/do/groups/edit.png "Do-Phish Campaigns Group Edit Module")
+        ![Do-Phish Campaigns Group Edit Module!](../../assets/do/groups/edit.png "Do-Phish Campaigns Group Edit Module")
 
-    4. **Delete**
-    5. **New Group** Click this option to create a new group and begin managing your campaigns within it.
+        - **Delete** Click `Delete` to delete the group .
+
 ***
+
 - **Manage Group** To manage the group and generate an executive report for all campaigns within it click  the `three-dot menu` and select `View` to access the management page.
-![Do-Phish Manage Campaigns Group !](../../assets/do/groups/manage.png "Do-Phish Manage Campaigns Group")
+
+    ![Do-Phish Manage Campaigns Group !](../../assets/do/groups/manage.png "Do-Phish Manage Campaigns Group")
+
     - **Main**
-    ![Do-Phish Main Campaigns Group !](../../assets/do/groups/main.png "Do-Phish Main Campaigns Group")
+        ![Do-Phish Main Campaigns Group !](../../assets/do/groups/main.png "Do-Phish Main Campaigns Group")
 
         1. **Name** The title of each campaign included in the group, as displayed in the `Campaigns tab`.
 
