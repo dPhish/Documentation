@@ -1,4 +1,4 @@
-## Setup Azure SSO
+## Setup Azure
 
 - all our work will be done in the Microsoft Azure → Microsoft Entr ID
 
@@ -49,6 +49,7 @@
 ---
 
 #### if you would like to use the same service for import target
+
 - we need to add the following permission `User.ReadAll`
 
 #### if you would like to use the same service for Response

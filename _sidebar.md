@@ -52,4 +52,5 @@
     - [- Web Proxy](modules/whiteListing/webProxy/webProxy.md "Web Proxy")
 * [- Integrations](modules/integrations/integrations.md "Integrations")
     - [- SSO](modules/integrations/sso.md "SSO")
-    - [- Azure SSO](modules/integrations/azureSso.md "Azure SSO")
+    - [- Azure](modules/integrations/azureSso.md "Azure")
+    - [- LDAP](modules/integrations/ldap.md "LDAP")
