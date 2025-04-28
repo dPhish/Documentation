@@ -4,6 +4,9 @@
 ### Post Campaigns Management
 
 - **Main** Upon accessing the `Post Campaigns tab`, users will encounter key indicators at the top of the page, which display the number of created post-campaigns. The interface is paginated, enabling users to customize the number of post-campaigns displayed. You can customize the number of post-campaigns displayed by adjusting the pagination at the bottom of the page.
+
+    ![Do-Phish postCampaign main!](../../assets/do/postCampaign/main.png "Do-Phish postCampaign main")
+
 ***
 ### Post Campaigns Features
 
@@ -85,7 +88,7 @@
 
             - **Add To Drill Group** Adds targets that meet the condition to a group named after the condition, allowing the admin to assign a course to all members of the group. You can find the group under `Drill > Groups`.
 
-
+    ![Do-Phish postCampaign add new!](../../assets/do/postCampaign/add_new.png "Do-Phish postCampaign add new")
 
 
 
