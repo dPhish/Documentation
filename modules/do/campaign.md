@@ -62,7 +62,10 @@ Upon accessing the Campaigns tab, users will encounter key indicators at the top
         - `Started:` Displays campaigns that have been created and launched.
     
     - **Tags**
-        Allows filtering of campaigns based on assigned tags.
+        - Allows filtering of campaigns based on assigned tags.
+
+    - **Difficulty Level**
+        - Allows filtering of campaigns based on assigned Difficulty Level (`Easy` or `Medium` or `Hard`).
 
 > [!NOTE]
 > To reset the filtering settings, click the "Reset" button, followed by "Filter."
@@ -207,11 +210,17 @@ supporting security monitoring and target behavior analysis. Key details include
         ![Do-Phish campaign_latest_tracker_report!](../../assets/do/campaign_latest_tracker_report.png "Do-Phish campaign_latest_tracker_report")
 ***
 - **Header**
-    1. **Executive Report**
+    1. **Test Mode**
+        - Toggle the Test Mode button to launch this specific campaign test mode.
+        if you launch the campaign and select targets in test mode, The data will not be saved in the report.
+        
+        ![Do-Phish test mode header!](../../assets/do/test_mode.png "Do-Phish test mode header")
+
+    2. **Executive Report**
         - Click the Report button to view an executive report for this specific campaign. 
         This will open a new tab with a browser-based report, allowing you to monitor campaign performance and the detailed analysis.
         
-            ![Do-Phish executive report header!](../../assets/do/executive_report_header_one.png "Do-Phish executive report header")
+        ![Do-Phish executive report header!](../../assets/do/executive_report_header_one.png "Do-Phish executive report header")
 
         - To request a downloadable executive report, click the Download button next to the Report button. An email with a download link will be sent to the email address associated with the logged-in user who made the request.
 
@@ -219,10 +228,10 @@ supporting security monitoring and target behavior analysis. Key details include
             
             ![Do-Phish report!](../../assets/do/report_example.png "Do-Phish report")
 
-    2. **Edit the Campaign**  Click this button to be redirected to the edit page, where you can modify the  campaign settings.
+    3. **Edit the Campaign**  Click this button to be redirected to the edit page, where you can modify the  campaign settings.
         
         ![Do-Phish edit campaign!](../../assets/do/edit_campaign_header.png "Do-Phish edit campaign")
 
-    3. **Launch the Campaign** Use this button to `Launch` the campaign. If the campaign has been launched  previously, the button title changes to `Relaunch`. You can also view the `Launch` History to track previous launches and `terminate` specific ones if needed. A pop-up displays each launch’s `Created Date`, `Status`, `Is Scheduled` (e.g., scheduled with a start date), and `Date Done`.
+    4. **Launch the Campaign** Use this button to `Launch` the campaign. If the campaign has been launched  previously, the button title changes to `Relaunch`. You can also view the `Launch` History to track previous launches and `terminate` specific ones if needed. A pop-up displays each launch’s `Created Date`, `Status`, `Is Scheduled` (e.g., scheduled with a start date), and `Date Done`.
        
        ![Do-Phish lunch campaign!](../../assets/do/lunch_campaign.png "Do-Phish lunch campaign")

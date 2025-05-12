@@ -23,6 +23,9 @@
     1. **Malware Logs**: Represent 80% of the 10% risk.
     2. **Public Breaches**: Represent 20% of the 10% risk.
 
+- **Recalculate Risk Score Button:**
+    Instead of waiting for 12 o'clock every day, it appears that the risk score is supposed to be calculated, so when we press it, it calculates it at that time.
+
 > [!NOTE]
 > The `Leaked Credentials Engine` runs every 24 hours at 12:00 AM to search for any leaked credentials from malware or public breaches for targets whose emails are imported into the tenant.
 

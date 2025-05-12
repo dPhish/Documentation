@@ -39,9 +39,9 @@
         - **Target Exploited**
 
     4. **Actions** 
-        - **View**
-        - **ُEdit**
-        - **Delete**
+        - **View:** View detailed information about the Post Campaign.
+        - **ُEdit:** Modify Specific Post Campaign Informations.
+        - **Delete:** Permanently remove the Specific Post Campaign. 
 
     5. **Search Functionality** Located at the top right corner, the search button allows you to find a campaign by its name quickly
 
