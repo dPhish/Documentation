@@ -160,7 +160,12 @@ To delete content, select **Actions** next to the desired content and choose **D
 
         To assign a category to a course, select the **Assign Category** button. This action opens a list of available categories to choose from. If you need a new category, you can create one from the **Categories tab**, making it available for assignment to courses.
 
-![Drill-Phish courses assign category button!](../../assets/drill/courses/assign-category-button.png "Drill-Phish courses assign category button")
+    ![Drill-Phish courses assign category button!](../../assets/drill/courses/assign-category-button.png "Drill-Phish courses assign category button")
+
+    2. #### Category Actions
+        **Delete** To delete a specific category.
+
+    ![Drill-Phish courses category actions!](../../assets/drill/courses/category_actions.png "Drill-Phish courses category actions")
 
 - ### Users
 
@@ -218,6 +223,11 @@ To delete content, select **Actions** next to the desired content and choose **D
     1. #### Assign Group
 
         To assign a group to a course, select the **Assign Group** button. This action opens a list of groups to choose from. If you want to add new groups, you can add them from the **Groups tab** in the Drill module, making them available for assignment to courses.
+
+    2. #### Group Actions
+    **Delete** To delete a specific group.
+
+    ![Drill-Phish courses groups actions!](../../assets/drill/courses/group_actions.png "Drill-Phish courses groups actions")
 
 ---
 

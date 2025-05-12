@@ -20,18 +20,14 @@ In the `Categories tab`, key indicators at the top display the total number of c
 
         - Administrators can reorganize the list in ascending or descending order using the arrows next to the category name in the information bar.
 
-    2. #### Head
-
-        - Indicates the person responsible for managing the category.
-
-    3. #### Description
+    2. #### Description
 
         - A brief summary of the category’s content or purpose.
 
-    4. #### Actions
+    3. #### Actions
 
         - **View**: Displays the category information without allowing any modifications.
-        - **Edit**: nables you to update the category settings.
+        - **Edit**: Enables you to update the category settings.
         - **Delete**: Removes the selected category from the system.
 
 ### Search Functionality
@@ -42,15 +38,14 @@ In the `Categories tab`, key indicators at the top display the total number of c
 
 - To create a new category, click the New Category button. This action will open the category creation tab, where you can add all necessary details and media. 
 
-![Drill-Phish categories add new button!](../../assets/drill/categories/new_category_button.png "Drill-Phish categories add new button")
+![Drill-Phish categories add new button!](../../assets/drill/categories/add_new_category_configurations.png "Drill-Phish categories add new button")
 
 # Categories Details and Metadata 
 
 Each category in the admin panel is defined by the following metadata fields: 
 
 - **Name**: The title of the category, which will appear to users. 
-- **Head**: Indicates the person responsible for managing the category.
 - **Description**: A brief summary of the category’s content or purpose.
 
-![Drill-Phish categories add new configurations!](../../assets/drill/categories/add_new_category_configurations.png "Drill-Phish categories add new configurations")
+![Drill-Phish categories add new configurations!](../../assets/drill/categories/new_category_button.png "Drill-Phish categories add new configurations")
 

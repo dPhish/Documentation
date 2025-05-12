@@ -29,7 +29,7 @@ Upon accessing the `Tracks tab`, users encounter key indicators at the top of th
 
 - Located at the top right corner, the search button allows you to find a track by its name quickly. 
 
-- ## Creating New Story
+- ## Creating New Track
 
     - To create a new track, click the New Track button. This action will open the track creation tab, where you can add all necessary details and media. 
 
@@ -49,7 +49,7 @@ Upon accessing the `Tracks tab`, users encounter key indicators at the top of th
 
     5. **Courses**: The total number of courses included in the track. 
 
-    6. **Image**: The field where you can upload the track’s image. 
+    6. **Picture**: The field where you can upload the track’s image from `New Upload` or you can select track's image from `Existing File` which includes all files that you uploaded before. 
 
     Review: An on/off toggle that controls whether users can rate and review the track. When enabled, users can provide feedback, which may help future participants gauge the track quality. 
 

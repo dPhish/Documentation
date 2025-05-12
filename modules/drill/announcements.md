@@ -54,6 +54,14 @@ In the `Announcements tab`, key indicators at the top display the total count of
 
 - A filter button is available next to the search button. This feature allows you to refine your campaign search based on the category of the campaign. 
 
+![Drill-Phish announcements filter button!](../../assets/drill/announcements/filter_announcements.png "Drill-Phish announcements filter button")
+
+**Category**
+- Allows filtering of announcements based on assigned Category.
+
+> [!NOTE]
+> To reset the filtering settings, click the "Reset" button, followed by "Filter."
+
 - ### Create New Announcement Campaign  
 
 To create a new campaign, click the "New Announcement" button. This will direct you to the campaign creation interface.  
@@ -167,9 +175,9 @@ creation process.
 
  - ## Header
     
-    1. **Edit the Campaign** 
+    1. **Edit the Announcement** 
 
-        Click this button to be redirected to the edit page, where you can modify the campaign settings. 
+        Click this button to be redirected to the edit page, where you can modify the announcement settings. 
         
         ![Drill-Phish announcements edit for specific campaign!](../../assets/drill/announcements/edit_specific_announcement_campain.png "Drill-Phish announcements edit for specific campaign")
 

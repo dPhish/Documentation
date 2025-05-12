@@ -55,3 +55,5 @@ Each group in the admin panel is defined by the following metadata fields:
 
 ![Drill-Phish groups add new configurations!](../../assets/drill/groups//add_new_group_configurations.png "Drill-Phish groups add new configurations")
 
+> [!NOTE]
+> The search button allows you to find a user by its name or email quickly"
