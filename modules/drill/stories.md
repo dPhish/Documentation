@@ -48,6 +48,7 @@ Each story in the admin panel and LMS is defined by the following metadata field
 
 - **Name**: The title of the story, which will appear to users.
 - **Description**: A brief overview of the story's content.
-- **Video**: The field where you can upload the story's media or video file.
+- **Video**: The field where you can upload the story's media or video file from `New Upload `or you can select the story's media or video file from `Existing File` which includes all files that you uploaded before.
+- **Active toggle**, It controls the visibility of the story in the LMS. When enabled, the story is visible to users, but when disabled, it is hidden from users.
 
 ![Drill-Phish stories add new configurations!](../../assets/drill/stories/add_new_story_configurations.png "Drill-Phish stories add new configurations")
