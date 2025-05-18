@@ -29,9 +29,9 @@ Upon accessing the `Attacks tab`, users will encounter key indicators at the top
     8. **Technique** The specific methods used within the attack.
 
     9. **Actions**
-        - **View**
-        - **Edit**
-        - **Delete**
+        - **View**: View detailed information about the attack.
+        - **Edit**: Modify the attack's configurations.
+        - **Delete**: Permanently remove the attack.
         
     #### **Search Functionality**
     - Located at the top right corner, the search button allows you to find an attack by its name or GUID quickly.

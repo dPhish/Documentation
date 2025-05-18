@@ -47,6 +47,6 @@ In the `Policies tab`, key indicators at the top display the total count of poli
 
     2. **Description**: A brief summary of the policy's purpose, scope, and any key details. 
 
-    3. **PDF File**: An upload field allowing administrators to upload the full policy document in PDF format, which users can access and review in the LMS.
+    3. **PDF File**: An upload field allowing administrators to upload the full policy document in PDF format from `New Upload` or you can select the document's from `Existing File` which includes all documents that you uploaded before, which users can access and review in the LMS.
 
     ![Drill-Phish policies add new configurations!](../../assets/drill/policies/new_configurations.png "Drill-Phish policies add new configurations")

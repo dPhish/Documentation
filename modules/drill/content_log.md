@@ -24,6 +24,9 @@ In the `Content Logs tab`, key indicators at the top display the total count of 
 5. **Date**
     - The date and time the content was accessed or viewed by the user.
 
+> [!NOTE]
+> The system allows to sort logs by column headers by `Content` and `User` to help administrators organize and analyze data efficiently.
+
 ### Filtering Options
 
 - A **filter** button is available in the Content Logs section, allowing administrators to refine their search by selecting specific criteria. The available filtering options include:

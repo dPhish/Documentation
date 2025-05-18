@@ -35,9 +35,9 @@ A comprehensive information bar is located above the courses, displaying essenti
     - Shows the status of the course (active or inactive), allowing users to quickly identify available courses.
 
 8. **Actions**
-    - View  
-    - Edit  
-    - Delete  
+    - **View**: View detailed information about the course.
+    - **Edit**: Modify the course's configurations.
+    - **Delete**: Permanently remove the course.
 
 - ### Search Functionality
 
@@ -87,7 +87,7 @@ Each course in the admin panel and LMS is defined by the following metadata fiel
 9. **Dialect**: Allows selection of the course's language or dialect, currently limited to four options:  
   English, فصحى (Classical Arabic), مصري (Egyptian Arabic), and سعودي (Saudi Arabic). This ensures the course is accessible to targeted audiences based on their preferred dialect.
 
-10. **Image**: A thumbnail or featured image representing the course, which adds visual appeal and helps learners identify the course at a glance.
+10. **Image**: A thumbnail or featured image representing the course, which adds visual appeal and helps learners identify the course at a glance, This field where you can upload the image from `New Upload` or you can select the image from `Existing File` which includes all attachements that you uploaded before.
 
 11. **Review**: An on/off toggle that controls whether users can rate and review the course. When enabled, users can provide feedback, which may help future participants gauge the course quality.
 
@@ -118,6 +118,10 @@ This section provides comprehensive course information, including the number of 
 
 ![Drill-Phish courses content management!](../../assets/drill/courses/course_content_management.png "Drill-Phish courses content management")
 
+> [!NOTE]
+> The system allows to sort content by column headers by `Category` to help administrators organize and analyze content of course efficiently.
+
+
 1. ### Adding New Content
 
 To add new content to the course, select the **New Content** button. This action opens the content creation interface, where you will need to complete the following key fields:
@@ -126,7 +130,7 @@ To add new content to the course, select the **New Content** button. This action
   - Provide a brief but clear description of the content, outlining its main focus or purpose.
 
 - **File**
-  - Use the upload section to add the content file. Ensure that the file format aligns with the content requirements and is properly named for easy identification.
+  - Use the upload section to add the content file from `New Upload` or Select from `Existing File`. Ensure that the file format aligns with the content requirements and is properly named for easy identification.
 
 - **Category**
   - Specify the type of content being added. The following categories are available:
@@ -134,6 +138,8 @@ To add new content to the course, select the **New Content** button. This action
     - **Presentation**: For slides or presentation materials.
     - **Infograph**: For visual data or diagrammatic content.
     - **Walkthrough**: For step-by-step instructional guides.
+
+> **Hint:** You should select `category` type before upload or select file.
 
 > **Hint:** Both **Presentation** and **Walkthrough** content types must be uploaded as PDFs. Other formats are not accepted for these categories.
 
@@ -167,6 +173,10 @@ To delete content, select **Actions** next to the desired content and choose **D
 
     ![Drill-Phish courses category actions!](../../assets/drill/courses/category_actions.png "Drill-Phish courses category actions")
 
+> [!NOTE]
+> The system allows to sort categories by column headers by `Name` to help administrators organize and analyze categories of course efficiently.
+
+
 - ### Users
 
     - Manage users by assigning, clearing trackers, or deleting users.
@@ -175,6 +185,9 @@ To delete content, select **Actions** next to the desired content and choose **D
     - Key indicators show the number of users, with a paginated interface to customize displayed users.
 
 ![Drill-Phish courses users management!](../../assets/drill/courses/course_users_management.png "Drill-Phish courses users management")
+
+> [!NOTE]
+> The system allows to sort users by column headers by `Username` to help administrators organize and analyze users of course efficiently.
 
 1. #### Assign User
 
@@ -195,6 +208,11 @@ To delete content, select **Actions** next to the desired content and choose **D
     - #### Assign Course to All Users
 
         To assign the course to all users, select the button located next to the **Assign User** button. Once activated, all users will be assigned to the course and will receive a notification if the notification feature is enabled.
+
+    ![Drill-Phish courses assign users!](../../assets/drill/courses/assign_users.png "Drill-Phish courses assign users")
+
+    > [!NOTE]
+    > The system allows to assign users on the course by differenet ways likes from Titles, Departments, Location, Manager, Company or Domain, which help adminstrators to assign users to the course efficiently.
 
     - #### Assign via Groups
 
@@ -220,6 +238,9 @@ To delete content, select **Actions** next to the desired content and choose **D
 
     ![Drill-Phish courses groups management!](../../assets/drill/courses/course_group_management.png "Drill-Phish courses groups management")
 
+    > [!NOTE]
+    > The system allows to sort groups by column headers by `Group Name` to help administrators organize and analyze groups of course efficiently.
+
     1. #### Assign Group
 
         To assign a group to a course, select the **Assign Group** button. This action opens a list of groups to choose from. If you want to add new groups, you can add them from the **Groups tab** in the Drill module, making them available for assignment to courses.
@@ -239,6 +260,9 @@ To delete content, select **Actions** next to the desired content and choose **D
     - An information bar displays details about the quiz like quiz name, description, and actions (edit/questions/delete).
 
     ![Drill-Phish courses quiz management!](../../assets/drill/courses/course_quiz_management.png "Drill-Phish courses quiz management")
+
+    > [!NOTE]
+    > The system allows to sort quiz by column headers by `Name` to help administrators organize and analyze quiz of course efficiently.
 
     1. #### Create New Quiz
 
@@ -311,7 +335,12 @@ To add a new FAQ to the course, click the **New FAQ** button, which opens the FA
 
 **Information Bar** Displays details for each comment, including the text, star rating, user, creation date, and available actions (e.g., Delete).
 
+**Delete**: Permanently removes the comment.
+
 ![Drill-Phish courses comments management!](../../assets/drill/courses/course_comments_management.png "Drill-Phish courses comments management")
+
+> [!NOTE]
+> The system allows to sort comments by column headers by `Text` to help administrators organize and analyze comments of course efficiently.
 
 ---
 

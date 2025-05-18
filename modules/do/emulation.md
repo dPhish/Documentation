@@ -23,12 +23,12 @@
             > You only need to choose one target for the emulation campaign, as all targets are protected by the same security control system. Whatever applies to one target will apply to the rest
 
         - **Actions**
-            - **View**
-            - **Edit**
-            - **Clone**
-            - **Export**
-            - **Open Ticket**
-            - **Delete**
+            - **View**: View detailed information about the emulation.
+            - **Edit**: Modify the emulation's configurations.
+            - **Delete**: Permanently remove the emulation.
+            - **Clone**: Duplicate the emulation to create a new one.
+            - **Export**: Export the emulation to a CSV file.
+            - **Open Ticket**: Open a ticket for the emulation campaign.
         
         - **Search Functionality** Located at the top right corner, the search button allows you to find a campaign by its name quickly.
 

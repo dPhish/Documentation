@@ -42,6 +42,6 @@ In the `Badges tab`, key indicators at the top display the total count of badges
 
     3. **Condition**: The required number or points a user must achieve to earn the badge. 
 
-    4. **Badge**: An upload filed where administrators can add the badge’s image. For optimal quality, it’s recommended to use an SVG file extension.  
+    4. **Badge**: An upload field where administrators can add the badge’s image from `New Upload` or you can select the badge's image from `Existing File`, For optimal quality, it’s recommended to use an SVG file extension.  
 
     ![Drill-Phish badges add new configurations!](../../assets/drill/badges/new_configurations.png "Drill-Phish badges add new configurations")
