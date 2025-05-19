@@ -190,6 +190,32 @@ Once the campaign is launched, this section displays data on various metrics, in
             - **Before Campaign Launch** Simply add or edit post-campaign actions, then launch as usual.
             - **After Campaign Launch** If the campaign is already running and you wish to add new actions, select the desired action and use the `Execute button` to apply it retroactively based on its trigger conditions.
 ***
+- **Saved Credentials** This feature provides insights into the credentials saved by `Targets` during a campaign. It highlights the domains users submitted credentials for, and whether the credentials were numeric or not.
+
+    - **Purpose**
+        1. To understand which domains were targeted by users.
+        2. To determine if credentials were valid or just dummy data (e.g., numeric values).
+        3. To get a count of how many credentials were submitted per domain/type.
+
+    - **How it works:** 
+        - When a user submits credentials:
+            1. If the credential is purely numeric, it’s considered invalid and shown with a domain value of N/A.
+            2. Otherwise, the system extracts the domain part and counts the number of submissions per domain.
+        - The data is displayed in the campaign results, showing:
+            1. Credential Type: Numeric / Text.
+            2. Domain: Actual domain or N/A.
+            3. Count: How many times it was submitted.
+        - If the credential is purely numeric, it’s considered invalid and shown with a domain value of N/A.
+        - Otherwise, the system extracts the domain part and counts the number of submissions per domain.
+        - The data is displayed in the campaign results, showing:
+            1. Credential Type: Numeric / Text.
+            2. Domain: Actual domain or N/A.
+            3. Count: How many times it was submitted.
+
+![Do-Phish campaign saved credentials!](../../assets/do/campaign_saved_credentials.png "Do-Phish campaign saved credentials")
+
+***
+
 - **Latest Trackers** The `Latest Trackers feature` offers detailed insights on target actions within a campaign, 
 supporting security monitoring and target behavior analysis. Key details include:
 
@@ -211,8 +237,14 @@ supporting security monitoring and target behavior analysis. Key details include
 ***
 - **Header**
     1. **Test Mode**
-        - Toggle the Test Mode button to launch this specific campaign test mode.
-        if you launch the campaign and select targets in test mode, The data will not be saved in the report.
+        - The `Test Mode` feature enables campaign to simulate a campaign without affecting actual analytics, reports, or user metrics. This is especially useful for testing email delivery and template rendering and ensuring the campaign behaves as expected before going live.
+
+        - **How it works:** 
+            - When Test Mode is enabled for a campaign:
+                1. Emails are sent normally to the selected test users.
+                2. No data is recorded in the analytics, dashboards, or reports.
+            - Each user row in the campaign setup screen has a toggle named `Test Mode`. You can enable this per user to specify which users are part of the test.
+
         
         ![Do-Phish test mode header!](../../assets/do/test_mode.png "Do-Phish test mode header")
 
