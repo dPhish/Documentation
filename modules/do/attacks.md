@@ -113,6 +113,7 @@ In the `Payloads` section, you can manage all payloads associated with the attac
 - **MITRE ID:** The MITRE ID associated with the payload.
 - **Status**:  Indicates if the payload is `Active` or `Inactive`.
 - **File**: An upload section used to upload the payload file.
+- **URL**: URL section used to add the payload url.
 
     3. **Actions**: The Actions button allows you to manage specific payloads with the following options:
         - **View**: View detailed information about the payload.

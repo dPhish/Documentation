@@ -34,7 +34,7 @@ In the `Policies tab`, key indicators at the top display the total count of poli
 
 - Located at the top right corner, the search button allows you to find a policy by its name quickly.
 
-- ## Export Report Buuton
+- ## Export Report Button
 
 - The export button allows you to export the list of policies which send report to your email and also can download the report.
 
