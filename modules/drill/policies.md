@@ -70,7 +70,7 @@ After creating a policy, you can manage it by selecting “Actions” and choosi
 
 ---
 
-### Policy viewr
+### Policy viewer
 
 - Enables you to view the policy details, including the uploaded PDF document.
 
