@@ -20,8 +20,9 @@ The main page of the leaked credentials section contains the following UI elemen
 11. **Count**: The total number of data leaks found for a target.
 12. **Status**: The current status of the leak. Security teams should promptly resolve cases of credential leaks by resetting the passwords or limiting access to critical infrastructure. The status can be Open, In Progress, Resolved, or False Positive.
 13. **Actions**: Opens the actions menu related to a leak entry. The menu has the following options:
-    - **Enrich**: Opens a new window that gives detailed information about the selected leak. The information includes the data that was leaked, whether it is a malware log or a public breach, and if it is a malware log, which malicious software was responsible for it.
+    - **View**: View detailed information about the leaked credentials.
     - **Open Ticket**: Used to create a new ticket and assign it to a human analyst to investigate the leak incident.
+    - **My Tickets**: Used to show all tickets the leak incident.
     - **Status**: The status of the leak. Can be Open, In Progress, Resolved, or False Positive.
 
     ![Detect-Phish leaked credentials actions!](../../assets/detect/leakedCredentials/actions.png "Detect-Phish leaked credentials actions")

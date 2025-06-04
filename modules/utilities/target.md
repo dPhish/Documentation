@@ -29,7 +29,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
         11. **Actions**:
             - `View`: View target’s information.
             - `Edit`: Edits target’s information.
-            - `Create Drill Account`: Create drill user to specific target, granting them access to the LMS.
+            - `Create Drill Account`: Create drill user for specific target, granting them access to the LMS.
             - `Delete`: Deletes the target from the system.
 
     ![utilities-Phish target actions button!](../../assets/utilities/target/target_actions_button.png "utilities-Phish target actions button")

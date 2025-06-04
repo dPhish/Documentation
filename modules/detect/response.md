@@ -3,6 +3,7 @@
 **Response**
 Once an investigation of a reported email is complete and the final verdict is malicious, it’s crucial to accurately assess the situation to respond to the threat. The response feature allows analysts to search for an email, using either the sender or the subject of the email, over every mailbox in the organization. This search process, also called Scope, will aggregate all emails in the organization that match the search criteria and display them in a listing to the analyst. The UI of the response page is simple yet powerful:
 
+## Response Details:
 1. **Delete**: Delete the selected email from the view page. This will delete the email from the mailbox of the reported.
 2. **Quarantine**: Same as delete, except the mail will be quarantined instead of deleted.
 3. **Scope by Sender**: Searches for emails in the organization that originated from sender as in the reported email.

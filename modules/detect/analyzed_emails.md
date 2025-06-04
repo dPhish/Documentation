@@ -7,7 +7,8 @@ The user interface consists of multiple elements, and each will be explained bel
 
 ---
 
-1. **Analyzed Emails**: Give the overall number of reported emails in the platform, including emails for all sources.
+## Analyzed Emails Details:
+1. Give the overall number of reported emails in the platform, including emails for all sources.
 2. Searches any of the displayed columns for emails that match the search keywords.
 3. Filters the displayed emails based on severity, source, status, or user.
 4. Exports the listing data, all the analyzed emails, in CSV, XLS, or JSON format.
@@ -28,7 +29,7 @@ The true power of the dPhish Detect module is in the capabilities it provides to
 
 ![Detect-Phish analyzed emails actions!](../../assets/detect/analyzedEmails/emails_actions.png "Detect-Phish analyzed emails actions")
 
-The items of the **Actions** menu are as follows:
+### The items of the Actions menu are as follows:
 1. **View**
     Opens the scan results page for the reported email. The page provides details about the email, including attachments (if any), email headers, server hops, and observables. It also displays the scan results, such as the severity score and a list of matching rules.
     The UI elements of the results page are as follows:
@@ -65,7 +66,7 @@ The items of the **Actions** menu are as follows:
 
     1. **Title**: The title of the new ticket.
     2. **User**: The human analyst that will be assigned the ticket. The value of this item can be any of the users registered on the platform.
-    3. **Email**: If the analyst that will be assigned the ticket is not a registered user on the platform, the ticket can still be assigned to them, and an email notification will be sent notifying them of the ticker.
+    3. **Email**: If the analyst that will be assigned the ticket is not a registered user on the platform, the ticket can still be assigned to them, and an email notification will be sent notifying them of the ticket.
     4. **Notify**: Select if you want an email notification sent to the assigned person.
     5. **Details**: Extra information that will be sent to the assigned person along with the ticket notification.
 

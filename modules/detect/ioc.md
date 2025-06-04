@@ -1,11 +1,12 @@
 # Main Page
 
-The `IOCs` section is a dashboard aggregating all Indicators of Compromise (IOCs) as extracted from the reported emails on the platform. The dashboard the following element:
+The `IOCs` section is a dashboard aggregating all Indicators of Compromise (IOCs) as extracted from the reported emails on the platform. The dashboard includes the following elements:
 
 ![Detect-Phish ioc main!](../../assets/detect/ioc/main.png "Detect-Phish ioc main")
 
 ---
 
+## IOC Details:
 1. The total number of IoCs on the platform.
 2. Filter the listing using Email, Scan Type, or Scan Object.
 3. Export the IoCs as a CSV file.
