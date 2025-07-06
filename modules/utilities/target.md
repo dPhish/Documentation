@@ -12,7 +12,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
 ## Target Features
 
-- ### Target Details and outer metadata
+- ### Target Details and Additional Metadata
 
     - A comprehensive information bar above the targets provides essential details such as the target name, UUID, title, department, mail, phone, location, manager, company, tags, and actions for further management.
 
@@ -42,7 +42,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
 - ### Filtering Options
 
-    - Next to the `Search` button, the `Filter` button allows you to search based on the target’s `name`, `title`, `mail`, `tags`, `department`, or `company`.
+    - Next to the `Search` button, the `Filter` button allows you to search based on the target’s `name`, `title`, `mail`, `tags`, `department` or `company`.
 
 - ### Export Data
 

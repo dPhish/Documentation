@@ -33,6 +33,7 @@ dPhish provides a comprehensive ticketing system to manage all services it cover
     3. **Email**: An alternative email address if the assigned person lacks access to the dPhish system.
     4. **Type**: The type of ticket being raised (e.g., Dark/Detect, Campaign, Emulation).
     5. **Description**: Additional information or context related to the ticket.
+    6. **Priority**: Select priority of the ticket (e.g, `low`, `medium`, `high`).
 
 ---
 

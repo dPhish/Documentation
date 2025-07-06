@@ -25,8 +25,8 @@
     3. **Subject**
     4. **Tags**
     5. **Actions**
-        - View
-        - Edit
+        - `View`: View email template information.
+        - `Edit`: Edit email template information.
 
 ### Email Templates Features
 

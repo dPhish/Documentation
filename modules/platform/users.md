@@ -55,9 +55,6 @@
 
 ![Platform-Phish user change password button!](../../assets/platform/users/change_password_button.png "Platform-Phish user change password button")
 
-
-![Platform-Phish user change password requirements!](../../assets/platform/users/change_password_button.png "Platform-Phish user change password requirements")
-
 ---
 
 - ### Edit User

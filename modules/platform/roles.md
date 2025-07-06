@@ -61,7 +61,7 @@ The assigned permissions determine what actions a user can perform in the system
 
 ## Modules and Required Permissions
 
-### Dashboaard
+### Dashboard
 The Dashboard module requires permissions from:
 - **Platform**
 - **Riskscore**

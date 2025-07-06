@@ -41,6 +41,8 @@ Upon accessing the `Templates tab`, users encounter key indicators at the top of
     - **How to**: Click on the `New Template` button. An interface will appear containing a text editor and a development environment, allowing you to create and design templates.
 
     ![utilities-Phish template new button!](../../assets/utilities/templates/new_template_button.png "utilities-Phish template new button")
+    
+    ---
 
     ![utilities-Phish template add new!](../../assets/utilities/templates/add_template.png "utilities-Phish template add new")
 

@@ -13,4 +13,8 @@ Upon accessing the `files tab`, users encounter key indicators at the top of the
 
     - Users can upload assets to dPhish’s file management system, allowing them to host files for use in awareness or phishing campaigns. These files can also be used for external purposes, providing flexibility in how they are utilized across different initiatives.
     
-![Platform-Phish files upload new file!](../../assets/platform/files/upload_new_file.png "Platform-Phish files upload new file")
+![Platform-Phish files upload new button!](../../assets/platform/files/upload_new_file.png "Platform-Phish files upload new button")
+
+---
+
+![Platform-Phish files upload new file!](../../assets/platform/files/upload_popup.png "Platform-Phish files upload new file")

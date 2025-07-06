@@ -13,8 +13,8 @@ The interface includes pagination controls, allowing users to set the number of 
 
 - ### Search Functionality
 
-    - Located at the top right corner, the search button allows you to find the logs by its `path`, or `method` used quickly.
+    - Located at the top right corner, the search button allows you to find the logs by its `path` or `method` used quickly.
 
 - ### Filtering Options
 
-    - Next to the `Search` button, the `Filter` button allows you to search based on the log’s `method`, or `User`
+    - Next to the `Search` button, the `Filter` button allows you to search based on the log’s `method` or `User`
