@@ -2,7 +2,7 @@
 
 - Utilization
     1. Manage only `admin users` access.
-    2. Control their `privileges` and `level of access` within the platform.
+    2. Control their `Roles` and `level of access` within the platform.
     3. Monitor and manage `account activation status` for each admin user.
     
 ---
@@ -29,7 +29,7 @@
 
 - ### Create New User
 
-    - **How to**: To give access to a new user, click the `New User` button, which will open a configuration interface where you can enter the user’s details, including `first name`, `last name`, `username`, `email`, `access privileges`, and `activation status`.
+    - **How to**: To give access to a new user, click the `New User` button, which will open a configuration interface where you can enter the user’s details, including `first name`, `last name`, `username`, `email`, `Roles`, and `activation status`.
 
 ![Platform-Phish new user button!](../../assets/platform/users/new_user_button.png "Platform-Phish new user button")
 

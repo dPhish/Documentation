@@ -80,6 +80,15 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
 ---
 
+- ### Delete All Targets
+    
+    1. The `Delete All Targets` button allows you to delete all targets from the list.
+
+![utilities-Phish target delete all targets!](../../assets/utilities/target/delete_all_targets.png "utilities-Phish target delete all targets")
+
+
+---
+
 - ### CSV File
 
     1. Download the CSV Template from the `Import Targets` button.

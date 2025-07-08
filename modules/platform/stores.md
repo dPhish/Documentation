@@ -59,7 +59,7 @@
 
     - Additionally, these templates can serve in `post-campaign service` as `send email` action, triggered after meeting specific `conditions` (e.g., `link_opened`, `credentials_saved`).
 
-    - **How to synchronize Pages**: Click `Sync All Templates` button. This will import all the templates from the store into the tenant without affecting the existing templates.
+    - **How to synchronize Templates**: Click `Sync All Templates` button. This will import all the templates from the store into the tenant without affecting the existing templates.
 
     ![Platform-Phish stores sync templates button!](../../assets/platform/stores/sync_templates_button.png "Platform-Phish stores sync templates button")
 
@@ -69,7 +69,7 @@
 
 - Includes the latest available senders used for sending `phishing campaigns`, `announcement campaigns` or `adversary emulation`.
 - Additionally, these senders can also be utilized in `post-campaign services` such as `send email`. The sender will be used to send the template chosen, triggered after meeting specific `conditions` (e.g., `link_opened`, `credentials_saved`).
-- **How to synchronize Pages**: Click `Sync All Senders` button. This will import all the senders from the store into the tenant without affecting the existing ones.
+- **How to synchronize Senders**: Click `Sync All Senders` button. This will import all the senders from the store into the tenant without affecting the existing ones.
   
     ![Platform-Phish stores sync senders button!](../../assets/platform/stores/sync_sender_button.png "Platform-Phish stores sync senders button")
 

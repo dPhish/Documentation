@@ -42,7 +42,7 @@
 ### Email Service Management
 
 #### New Email Service
-- To add a new email service, click the "New Email" button, select the desired service (e.g., `Google`, `Office`, `Exchange`, `LDAP`, or `Agent`), and configure the necessary settings. You can also enable inner services like `SSO` (Single Sign-On), `TLS` (Transport Layer Security), `Response`, and `Target` for integration.
+- To add a new email service, click the "New Email" button, select the desired service (e.g., `Google`, `Office`, `Exchange`, `LDAP` or `Agent`), and configure the necessary settings. You can also enable inner services like `SSO` (Single Sign-On), `TLS` (Transport Layer Security), `Response`, and `Target` for integration.
 
     ![Platform-Phish email services new!](../../assets/platform/emailServices/new_email_services.png "Platform-Phish email services new")
 

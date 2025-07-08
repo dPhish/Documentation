@@ -1,6 +1,6 @@
 ## Overview
 
-> The `Credentials tab` displays credentials submitted by targets in launched phishing simulation campaigns, along with additional data. This section provides insights into which target entered their credentials, in which campaign, and much more information that we will explore further.
+> The `Credentials tab` displays credentials submitted by targets in launched phishing simulation campaigns, along with additional data. This section provides insights into which target entered their credentials, in which campaign and additional details that will be covered in the following section.
 
 > [!NOTE]
 > Passwords are not saved in our database to ensure data security.

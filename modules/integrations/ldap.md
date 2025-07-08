@@ -14,7 +14,6 @@
    3) tls: enabled or not
 
 - after getting this information we need to create new email service in with type sso.
-- we are supporting simple bind with username and password.
 
 ### Target
 
@@ -33,6 +32,5 @@
    6) organization_units may be empty
 
 - after getting this information we need to create new email service in with type target.
-- we are supporting simple bind with username and password.
 
 ---

@@ -10,8 +10,23 @@ The main page of the leaked credentials section contains the following UI elemen
 1. The total number of targets who have had their credentials leaked.
 2. Search for entries with specific keywords.
 3. Filter the displayed entries based on leaked type or leak status.
+
+![Detect-Phish leaked credentials filters!](../../assets/detect/leakedCredentials/filters_list.png "Detect-Phish leaked credentials filters")
+
+---
+
 4. Generate a report of the leaked credentials state.
+
+![Detect-Phish leaked credentials reports!](../../assets/detect/leakedCredentials/export_reports.png "Detect-Phish leaked credentials reports")
+
+---
+
 5. Rescan the targets in the platform against the Dark Web leaks.
+
+![Detect-Phish leaked credentials rescan!](../../assets/detect/leakedCredentials/rescan_leaked.png "Detect-Phish leaked credentials rescan")
+
+---
+
 6. **Target Name**: The name of the target, as registered in the platform, whose credentials got leaked.
 7. **Target Email**: The email address of the target.
 8. **Department**: The department of the target.
