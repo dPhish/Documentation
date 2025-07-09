@@ -18,3 +18,13 @@ Upon accessing the `files tab`, users encounter key indicators at the top of the
 ---
 
 ![Platform-Phish files upload new file!](../../assets/platform/files/upload_popup.png "Platform-Phish files upload new file")
+
+---
+
+- ### Copy Link
+
+    - When users click on copy link icon, It allow users to can take link copy of file to can open in another tab.
+
+    ![Platform-Phish files copy link!](../../assets/platform/files/copy_link.png "Platform-Phish files copy link")
+
+---

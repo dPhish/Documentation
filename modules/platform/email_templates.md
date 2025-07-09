@@ -3,6 +3,11 @@
 
 - The `Email Templates` section contains all templates used within the tenant, including the credentials template for new user access, the OTP template, and the course assignment template, and much more. There are 18 templates available in both `English` and `Arabic`, serving various purposes across the tenant. 
 
+
+![Platform-Phish email templates main!](../../assets/platform/emailTemplates/main.png "Platform-Phish email templates main")
+
+---
+
 ### General Notes
 1. New email templates cannot be added.
 2. Only existing email templates can be edited, including:
@@ -13,9 +18,6 @@
 
 #### Search Functionality
 - Located at the top right corner, the search button allows you to find email template by its name quickly.
-
-#### Filtering Options
-- Next to the `Search` button, the `Filter` button allows you to search based on the email’s `language`, `name`, or `tags.
 
 #### Information Bar
 - A comprehensive information bar is situated above the templates, displaying the following essential details:

@@ -160,8 +160,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
             - User.Read.All
             - User.Export.All
 
-    ![utilities-Phish target permissions!](../../assets/utilities/target/target_permissions.png "utilities-Phish target permissions")
-
+            ![utilities-Phish target permissions!](../../assets/utilities/target/target_permissions.png "utilities-Phish target permissions")
 
     7. Grant admin consent:
         - Go to "API permissions," click on "Grant admin consent for [your tenant]," and confirm the consent.
@@ -173,28 +172,29 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
     - These steps should guide you through creating an Azure AD application with permission to read all users' information. For more detailed guidance and visual aids, refer to Azure's documentation.
 
-    After the preparation of Azure AD follow the below steps:
+    ## After the preparation of Azure AD follow the below steps:
+
     1. Navigate to `Platform` > `Email Services` in your admin panel.
 
-    ![utilities-Phish target email services!](../../assets/utilities/target/email_services.png "utilities-Phish target email services")
+        ![utilities-Phish target email services!](../../assets/utilities/target/email_services.png "utilities-Phish target email services")
 
     2. Add `New Email` to begin the integration setup.
 
-    ![utilities-Phish target new email button!](../../assets/utilities/target/new_email_button.png "utilities-Phish target new email button")
+        ![utilities-Phish target new email button!](../../assets/utilities/target/new_email_button.png "utilities-Phish target new email button")
 
     3. Choose `Office` and fill in the required office `connection` details (e.g., Tenant, Client, Secret, Resource, Other).
 
-    ![utilities-Phish target add email services office!](../../assets/utilities/target/add_email_services_office.png "utilities-Phish target add email services office")
+        ![utilities-Phish target add email services office!](../../assets/utilities/target/add_email_services_office.png "utilities-Phish target add email services office")
 
     4. Select and enable the service for integration, such as `Targets`.
 
-    ![utilities-Phish target button!](../../assets/utilities/target/targets_button.png "utilities-Phish target button")
+        ![utilities-Phish target button!](../../assets/utilities/target/targets_button.png "utilities-Phish target button")
 
     5. Save configurations.
 
     6. Get back to `Targets tab` Use Sync Button to import the targets from the active directory.
 
-    ![utilities-Phish target sync button!](../../assets/utilities/target/target_sync_button.png "utilities-Phish target sync button")
+        ![utilities-Phish target sync button!](../../assets/utilities/target/target_sync_button.png "utilities-Phish target sync button")
     
 - ### Create Drill Accounts
 
@@ -209,24 +209,25 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
     - **Purpose**: Provide LMS access to a large number of targets.
     - **How to**: Click the `Create Drill Accounts` button. The system will automatically generate accounts for all targets in the system and send them an email with their access credentials.
 
-    ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/drill_account_button.png "utilities-Phish target Create Drill Accounts Button")
+        ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/drill_account_button.png "utilities-Phish target Create Drill Accounts Button")
 
+        ---
 
-    ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/drill_account_button_model.png "utilities-Phish target Create Drill Accounts Button")
+        ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/drill_account_button_model.png "utilities-Phish target Create Drill Accounts Button")
 
     - **Create drill account to a specific target**
     - **Purpose**: Provide LMS access to a single target.
     - **How to**: Click the `Actions` button next to the desired target, then select `Create Drill Account` to generate their account.
 
-    ![utilities-Phish target specific action button!](../../assets/utilities/target/target_specific_action_button.png "utilities-Phish target specific action button")
+        ![utilities-Phish target specific action button!](../../assets/utilities/target/target_specific_action_button.png "utilities-Phish target specific action button")
 
-    ![utilities-Phish target single create drill account!](../../assets/utilities/target/single_create_drill_account.png "utilities-Phish target single create drill account")
+        ![utilities-Phish target single create drill account!](../../assets/utilities/target/single_create_drill_account.png "utilities-Phish target single create drill account")
 
     - **Auto access for targets (on creation)**
     - **Purpose**: Automatic access to the LMS for new targets.
     - **How to**: Go to `Settings` > `LMS` and enable the `Access For Targets (On Creation)` button. Whenever a new target is added to the system, an account will be automatically created for them, and they will receive an email with their access credentials.
 
-    ![utilities-Phish target access button!](../../assets/utilities/target/access_target_button.png "utilities-Phish target access button")
+        ![utilities-Phish target access button!](../../assets/utilities/target/access_target_button.png "utilities-Phish target access button")
 
     > [!NOTE]
     > After creating a new user, they will receive an email with their access credentials and a link to the tenant. This feature will only execute if enabled in the settings (Settings > Platform > Notify user on creation).
@@ -235,7 +236,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
     - **Purpose**: Manually create a new user and manage their access to the LMS.
     - **How to**: The administrator can click the `New User` button from the `Drill` > `Users section`, enter the user's information manually, and choose to enable or disable the account during creation.
 
-    ![utilities-Phish target new user button!](../../assets/utilities/target/new_user_button.png "utilities-Phish target new user button")
+        ![utilities-Phish target new user button!](../../assets/utilities/target/new_user_button.png "utilities-Phish target new user button")
 
     - Each user is defined by the following metadata fields:
         1. **First Name**
@@ -244,7 +245,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
         4. **Email**: The email address associated with the user’s account.
         5. **Enabled**: This is an enable button that toggles the user’s account status between Active and Inactive.
 
-    ![utilities-Phish target new user configurations!](../../assets/utilities/target/new_user_configurations.png "utilities-Phish target new user configurations")
+        ![utilities-Phish target new user configurations!](../../assets/utilities/target/new_user_configurations.png "utilities-Phish target new user configurations")
 
     > [!NOTE]
     > After creating a new user, they will receive an email with their access credentials and a link to the tenant. This feature will only execute if enabled in the settings (Settings > Platform > Notify user on creation).

@@ -19,4 +19,4 @@ Upon accessing the `Tasks tab`, users encounter key indicators at the top of the
 
 - ### Search Functionality
 
-    - Located at the top right corner, the search button allows you to find the logs by its `path`, or `method` used quickly.
+    - Located at the top right corner, the search button allows you to find the tasks by its `Task Name` used quickly.

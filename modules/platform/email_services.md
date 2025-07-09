@@ -17,23 +17,25 @@
 
 - The following inner services are part of the integration process for each email system (Google, Office, Exchange, LDAP, and Agent) and can be configured to meet the specific `needs` of the tenant for secure and efficient email communication and user management:
 
-    1. **TLS (Transport Layer Security)**: This service ensures the `encryption` of emails during transmission, providing a secure connection between the email servers and preventing unauthorized access to sensitive data.
+    1. **SSO (Single Sign-On)**: This service allows users to authenticate once across multiple systems without having to re-enter their credentials. For example, integrating Google or Office services with SSO would allow users to access various systems using their existing Google or Office credentials.
 
-    2. **SSO (Single Sign-On)**: This service allows users to authenticate once across multiple systems without having to re-enter their credentials. For example, integrating Google or Office services with SSO would allow users to access various systems using their existing Google or Office credentials.
+    2. **Response**: This service handles email interactions like bouncebacks, message delivery notifications, and tracking responses from emails sent through the system. It's useful for managing email campaigns and monitoring email status.
 
-    3. **Response**: This service handles email interactions like bouncebacks, message delivery notifications, and tracking responses from emails sent through the system. It's useful for managing email campaigns and monitoring email status.
-
-    4. **Target**: This service involves setting up email integrations with specific targets within the tenant, such as syncing user data with email systems (e.g., LDAP or Exchange) and ensuring smooth management of user access and authentication.
+    3. **Target**: This service involves setting up email integrations with specific targets within the tenant, such as syncing user data with email systems (e.g., LDAP or Exchange) and ensuring smooth management of user access and authentication.
 
 ---
 
 ### Email Services Features
 
-#### Search Functionality
-- Located at the top right corner, the search button allows you to find the email service by its `service`, or `server` used quickly.
+#### Actions Features
+
+- **Edit**: Modify the email's configurations.
+- **Delete**: Permanently remove the email.
 
 #### Search Functionality
-- Next to the `Search` button, the `Filter` button allows you to search based on the `service`, or `integration service`.
+
+- `Search` button Located at the top right corner, allows you to find the email service by its `service`, or `server` used quickly.
+- `Filter` button Next to the `Search` button, allows you to search based on the `service`, or `integration service`.
 
     ![Platform-Phish email services filter options!](../../assets/platform/emailServices/email_filter_options.png "Platform-Phish email services filter options")
 

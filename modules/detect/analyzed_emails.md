@@ -11,6 +11,11 @@ The user interface consists of multiple elements, and each will be explained bel
 1. Give the overall number of reported emails in the platform, including emails for all sources.
 2. Searches any of the displayed columns for emails that match the search keywords.
 3. Filters the displayed emails based on severity, source, status, or user.
+
+   ![Detect-Phish analyzed emails filters!](../../assets/detect/analyzedEmails/filters_list.png "Detect-Phish analyzed emails filters")
+
+   ---
+
 4. Exports the listing data, all the analyzed emails, in CSV, XLS, or JSON format.
 5. Submits a new email, .eml file, for analysis. 
 6. **Subject**: The subject of the reported email.
