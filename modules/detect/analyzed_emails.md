@@ -66,23 +66,27 @@ The true power of the dPhish Detect module is in the capabilities it provides to
 2. **Open in New Tab**
     Opens the scan results page, the same page as in View, for the reported email in a new tab. 
 
-3. **Open Ticket**
+3. **My Ticket**
+    Allow user to show all tickets and comment of the email.
+
+4. **Open Ticket**
     Open the ticket creation menu where administrators can assign email analysis tickets to a human analyst to investigate and triage the reported email. The UI of the menu is as follows:
 
     1. **Title**: The title of the new ticket.
-    2. **User**: The human analyst that will be assigned the ticket. The value of this item can be any of the users registered on the platform.
+    2. **Priority**: To select the priority of the ticket
+    4. **User**: The human analyst that will be assigned the ticket. The value of this item can be any of the users registered on the platform.
     3. **Email**: If the analyst that will be assigned the ticket is not a registered user on the platform, the ticket can still be assigned to them, and an email notification will be sent notifying them of the ticket.
-    4. **Notify**: Select if you want an email notification sent to the assigned person.
-    5. **Details**: Extra information that will be sent to the assigned person along with the ticket notification.
+    5. **Notify**: Select if you want an email notification sent to the assigned person.
+    6. **Details**: Extra information that will be sent to the assigned person along with the ticket notification.
 
     ![Detect-Phish analyzed emails open ticket!](../../assets/detect/analyzedEmails/emails_open_ticket.png "Detect-Phish analyzed emails open ticket")
 
-4. **Status**
+5. **Status**
     Used to set the status of the reported email. Each reported email represents a case on the platform. The status of this case depends on the investigation results of the security analysts. The status of a case can be Open, In Progress, Resolved, or False Positive.
 
     ![Detect-Phish analyzed emails status!](../../assets/detect/analyzedEmails/emails_status.png "Detect-Phish analyzed emails status")
 
-5. **Response**
+6. **Response**
     Once an investigation of a reported email is complete and the final verdict is malicious, it’s crucial to accurately assess the situation to respond to the threat. The response feature allows analysts to search for an email, using either the sender or the subject of the email, over every mailbox in the organization. This search process, also called Scope, will aggregate all emails in the organization that match the search criteria and display them in a listing to the analyst. The UI of the response page is simple yet powerful:
 
     1. **Delete**: Delete the selected email from the view page. This will delete the email from the mailbox of the reported.
@@ -94,3 +98,5 @@ The true power of the dPhish Detect module is in the capabilities it provides to
     4. **Scope by Subject**: Searches for emails in the organization that have the same subject as the reported email.
     5. **Search**: Once the search is over, the page is populated with emails that matched the search criteria. Analysts can then take actions on these emails such as mass deletion or mass quarantine.
     6. **Delete**: Deletes the selected email from the dashboard listing. Any tickets opened on the deleted entry will be deleted as well. Note that this DOES NOT delete the email from the reporter’s mailbox, that what response does, it just deletes it from the platform.
+
+7. **Delete**: Delete the email. This will delete the email from the mailbox of the reported.

@@ -241,6 +241,16 @@
     display: none;
   }
 }
+
+.markdown-section, .markdown-section * {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
+}
+
+.markdown-section {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
       
     </style>
   </head>
@@ -265,20 +275,122 @@
             if (content) content.classList.toggle('shifted');
       }
 
+
+
+      
+
       function downloadPageAsPDF() {
-        const element = document.querySelector('.markdown-section');
-        if (!element) return;
+  // Hide elements that shouldn't be in PDF
+  const elementsToHide = [
+    '#download-btn',
+    '#toc-toggle',
+    '.page_toc',
+    '.sidebar-toggle',
+    '.sidebar',
+    '.app-nav',
+    '.progress'
+  ];
+  
+  // Show loading indicator
+  const loading = document.createElement('div');
+  loading.style.position = 'fixed';
+  loading.style.top = '0';
+  loading.style.left = '0';
+  loading.style.width = '100%';
+  loading.style.height = '100%';
+  loading.style.backgroundColor = 'rgba(0,0,0,0.5)';
+  loading.style.display = 'flex';
+  loading.style.justifyContent = 'center';
+  loading.style.alignItems = 'center';
+  loading.style.zIndex = '9999';
+  loading.innerHTML = '<div style="color: white; font-size: 24px;">Generating PDF...</div>';
+  document.body.appendChild(loading);
 
-        const opt = {
-          margin:       0.5,
-          filename:     'page.pdf',
-          image:        { type: 'jpeg', quality: 0.98 },
-          html2canvas:  { scale: 2 },
-          jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
-        };
+  // Hide elements
+  elementsToHide.forEach(selector => {
+    const el = document.querySelector(selector);
+    if (el) el.style.visibility = 'hidden';
+  });
 
-        html2pdf().set(opt).from(element).save();
+  // Get the element to print
+  const element = document.querySelector('.markdown-section');
+  if (!element) return;
+
+  // PDF options
+  const opt = {
+    margin: [0.5, 0.5, 0.5, 0.5],
+    filename: 'documentation.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { 
+      scale: 2,
+      scrollY: 0,
+      useCORS: true,
+      allowTaint: true,
+      letterRendering: true
+    },
+    jsPDF: { 
+      unit: 'in', 
+      format: 'a4', 
+      orientation: 'portrait',
+      compress: true
+    },
+    pagebreak: { 
+      mode: ['avoid-all', 'css', 'legacy'],
+      before: '.page-break'
+    }
+  };
+
+  // Generate PDF
+  html2pdf()
+    .set(opt)
+    .from(element)
+    .toPdf()
+    .get('pdf')
+    .then(function(pdf) {
+      const totalPages = pdf.internal.getNumberOfPages();
+      for (let i = 1; i <= totalPages; i++) {
+        pdf.setPage(i);
+        pdf.setFontSize(10);
+        pdf.setTextColor(150);
+        pdf.text(
+          'Page ' + i + ' of ' + totalPages,
+          pdf.internal.pageSize.getWidth() - 2,
+          pdf.internal.pageSize.getHeight() - 0.5
+        );
       }
+    })
+    .save()
+    .then(() => {
+      elementsToHide.forEach(selector => {
+        const el = document.querySelector(selector);
+        if (el) el.style.visibility = 'visible';
+      });
+      document.body.removeChild(loading);
+    })
+    .catch(err => {
+      elementsToHide.forEach(selector => {
+        const el = document.querySelector(selector);
+        if (el) el.style.visibility = 'visible';
+      });
+      document.body.removeChild(loading);
+      alert('Failed to generate PDF. Please try again.');
+    });
+}
+
+    // function downloadPageAsPDF() {
+    //     const element = document.querySelector('.markdown-section');
+    //     if (!element) return;
+
+    //     const opt = {
+    //       margin:       0.5,
+    //       filename:     'page.pdf',
+    //       image:        { type: 'jpeg', quality: 0.98 },
+    //       html2canvas:  { scale: 2 },
+    //       jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+    //     };
+
+    //     html2pdf().set(opt).from(element).save();
+    //   }
 
       window.$docsify = {
         toc: {

@@ -10,22 +10,22 @@ Upon accessing the Campaigns tab, users will encounter key indicators at the top
 
 ### Campaign Features
 
-- **Campaign Details and outer metadata**
-    A comprehensive information bar is situated above the campaigns, displaying essential details such as the campaign `full name`, `type`, `associated page`, `number of templates used`, `success category`, `start date`, and available `actions` for further management.
+#### **Campaign Details and outer metadata**
+A comprehensive information bar is situated above the campaigns, displaying essential details such as the campaign `full name`, `type`, `associated page`, `number of templates used`, `success category`, `start date`, and available `actions` for further management.
 
-    1. **Full Name** By default, the displayed campaigns are organized with the most recently created campaigns appearing first. Users can easily reorganize the list in ascending or descending order by using the arrows located next to the full campaign name in the information bar.
+1. **Full Name** By default, the displayed campaigns are organized with the most recently created campaigns appearing first. Users can easily reorganize the list in ascending or descending order by using the arrows located next to the full campaign name in the information bar.
 
-    2. **Campaign Type** Specify the type of campaign being utilized, such as "Email with Attachment" or "Email with Page," among other options.
+2. **Campaign Type** Specify the type of campaign being utilized, such as "Email with Attachment" or "Email with Page," among other options.
 
-    3. **associated page** Provide the name of the page associated with the campaign, applicable only for campaign types "Email with Page," "Email with QR Code," or "Image with QR Code."
+3. **associated page** Provide the name of the page associated with the campaign, applicable only for campaign types "Email with Page," "Email with QR Code," or "Image with QR Code."
 
-    4. **Templates** Specify the number of templates being utilized in the campaign.
+4. **Templates** Specify the number of templates being utilized in the campaign.
 
-    5. **Success Category** Specify the success category that, if achieved, will classify the campaign as successful.
+5. **Success Category** Specify the success category that, if achieved, will classify the campaign as successful.
 
-    6. **Start Date** This information allows you to determine whether the campaign is scheduled for a specific start date or if it will be launched immediately.
+6. **Start Date** This information allows you to determine whether the campaign is scheduled for a specific start date or if it will be launched immediately.
 
-    7. **Actions** View, Edit, Export, Clone, Open Ticket, Clear Ticket, Delete
+7. **Actions** View, Edit, Export, Clone, Open Ticket, Clear Ticket, Delete
 
 ***
 - **Search Functionality**
@@ -140,14 +140,16 @@ This section displays all the campaign settings, including the tracker host, suc
 Once the campaign is launched, this section displays data on various metrics, including the total number of phishing emails sent, emails opened, links clicked, saved credentials, USB access, and a timeline of campaign activities. It also provides daily insights while the campaign is running, such as the number of specific interactions (e.g., 105 tracks on a given day for emails sent, links opened, and credentials saved).
 
 ![Do-Phish Campaign Chart!](../../assets/do/campaign_chart.png "Do-Phish Campaign Chart")
+
 ***
+
 - **Campaigns Targets** Upon navigating to the `Campaign Targets`, you can manage the targets for the phishing campaign. Here, you can customize the number of targets displayed by adjusting the pagination settings at the bottom of the box.
 ![Do-Phish Campaign Target!](../../assets/do/campaign_target.png "Do-Phish Campaign Target")
     1. **Search Functionality** Located at the top right corner, the search button allows you to find a target by its Name, Email, Title and Department quickly
     2. **Import Targets** This button enables you to upload a bulk list of targets to your phishing campaign using two methods:
         - **CSV Sample** When selected, a CSV template containing the necessary data fields will be downloaded automatically. After filling in your target information, select the completed file and upload it to the system.
         
-        - **LDAP Integration** Connects the client’s tenant to their on-premises Active Directory, allowing them to pull targets directly into the phishing campaign.
+ - **LDAP Integration** Connects the client’s tenant to their on-premises Active Directory, allowing them to pull targets directly into the phishing campaign.
         
     3. **Export Targets** The `Export Targets` button allows users to download an Excel file containing target data used in the campaign. This feature enables easy access to and analysis of campaign targets.
         
@@ -182,13 +184,13 @@ Once the campaign is launched, this section displays data on various metrics, in
     ![Do-Phish campaign post campaign!](../../assets/do/campaign_post_campaign.png "Do-Phish campaign post campaign")
 
     ##### These actions allow for customized follow-up and effective user tracking post-campaign.
-        - **Execute** The `Execute button` manually triggers selected post-campaign actions for past campaign data.
-            While post campaign actions typically run automatically, this option allows you to apply them 
-            `retroactively` if needed.
-            ![Do-Phish campaign post campaign execute!](../../assets/do/campaign_post_campaign_execute.png "Do-Phish campaign post campaign execute")
-        - **Update** The Update button allows you to add or modify post-campaign actions.
-            - **Before Campaign Launch** Simply add or edit post-campaign actions, then launch as usual.
-            - **After Campaign Launch** If the campaign is already running and you wish to add new actions, select the desired action and use the `Execute button` to apply it retroactively based on its trigger conditions.
+    - **Execute** The `Execute button` manually triggers selected post-campaign actions for past campaign data.
+        While post campaign actions typically run automatically, this option allows you to apply them 
+        `retroactively` if needed.
+        ![Do-Phish campaign post campaign execute!](../../assets/do/campaign_post_campaign_execute.png "Do-Phish campaign post campaign execute")
+    - **Update** The Update button allows you to add or modify post-campaign actions.
+        - **Before Campaign Launch** Simply add or edit post-campaign actions, then launch as usual.
+        - **After Campaign Launch** If the campaign is already running and you wish to add new actions, select the desired action and use the `Execute button` to apply it retroactively based on its trigger conditions.
 ***
 - **Saved Credentials** This feature provides insights into the credentials saved by `Targets` during a campaign. It highlights the domains users submitted credentials for, and whether the credentials were numeric or not.
 
@@ -219,22 +221,24 @@ Once the campaign is launched, this section displays data on various metrics, in
 - **Latest Trackers** The `Latest Trackers feature` offers detailed insights on target actions within a campaign, 
 supporting security monitoring and target behavior analysis. Key details include:
 
-    - **Location** The origin of credential submissions.
-    - **IP Address and VPN Usage** Information on target IPs and VPN access.
-    - **User Agent** Browser or app used (e.g., Chrome, Edge).
-    ![Do-Phish campaign_latest_tracker!](../../assets/do/campaign_latest_tracker.png "Do-Phish campaign_latest_tracker")
+- **Location** The origin of credential submissions.
+- **IP Address and VPN Usage** Information on target IPs and VPN access.
+- **User Agent** Browser or app used (e.g., Chrome, Edge).
+![Do-Phish campaign_latest_tracker!](../../assets/do/campaign_latest_tracker.png "Do-Phish campaign_latest_tracker")
 
-    - **Export Excel** This button allows you to download an Excel report containing all tracker data for the campaign. The report includes:
-        - **Campaign Name** Identifies the campaign the trackers belong to.
-        - **Target Email** Lists each target’s email address.
-        - **Tracker Category** Details tracker status, such as `Link Opened`, `Credentials Saved`, `Email Sent`, etc.
-        - **Date** The date each action was taken.
+- **Export Excel** This button allows you to download an Excel report containing all tracker data for the campaign. The report includes:
+    - **Campaign Name** Identifies the campaign the trackers belong to.
+    - **Target Email** Lists each target’s email address.
+    - **Tracker Category** Details tracker status, such as `Link Opened`, `Credentials Saved`, `Email Sent`, etc.
+    - **Date** The date each action was taken.
 
-        >[!Note]
-        >This report provides a comprehensive overview of target interactions, aiding in detailed campaign analysis and record-keeping.
+    >[!Note]
+    >This report provides a comprehensive overview of target interactions, aiding in detailed campaign analysis and record-keeping.
 
-        ![Do-Phish campaign_latest_tracker_report!](../../assets/do/campaign_latest_tracker_report.png "Do-Phish campaign_latest_tracker_report")
+    ![Do-Phish campaign_latest_tracker_report!](../../assets/do/campaign_latest_tracker_report.png "Do-Phish campaign_latest_tracker_report")
+
 ***
+
 - **Header**
     1. **Test Mode**
         - The `Test Mode` feature enables campaign to simulate a campaign without affecting actual analytics, reports, or user metrics. This is especially useful for testing email delivery and template rendering and ensuring the campaign behaves as expected before going live.
