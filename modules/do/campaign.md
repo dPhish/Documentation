@@ -45,9 +45,6 @@ A comprehensive information bar is situated above the campaigns, displaying esse
         - Image with QR Code (Download)
 
     - **Success Category**
-        - Mail Sent
-        - SMS Sent
-        - Mail Opened
         - Document Opened
         - Credentials Saved
         - Link Opened
@@ -117,7 +114,7 @@ wizard entails:
 
     5. **HID Attack** Mimic attacks involving Human Interface Devices such as keyboard or mouse emulators, to test physical security controls.
 
-    6. **Email With Page** Send emails containing QR codes, like the below method, but delivered via email.
+    6. **Email With Page** Send emails containing the selected page, like the below method, but delivered via email.
 
     7. **Email With Attachment** Distribute emails with attachments designed to test users' caution when opening or downloading files.
 
@@ -203,10 +200,6 @@ Once the campaign is launched, this section displays data on various metrics, in
         - When a user submits credentials:
             1. If the credential is purely numeric, it’s considered invalid and shown with a domain value of N/A.
             2. Otherwise, the system extracts the domain part and counts the number of submissions per domain.
-        - The data is displayed in the campaign results, showing:
-            1. Credential Type: Numeric / Text.
-            2. Domain: Actual domain or N/A.
-            3. Count: How many times it was submitted.
         - If the credential is purely numeric, it’s considered invalid and shown with a domain value of N/A.
         - Otherwise, the system extracts the domain part and counts the number of submissions per domain.
         - The data is displayed in the campaign results, showing:

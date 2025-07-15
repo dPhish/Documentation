@@ -65,7 +65,7 @@ Test employees and email systems against phishing.
 
 ##### Key Parts:
 - **Campaigns**: Fake phishing tests.
-- **Campaign Groups**: Run many campaigns at once.
+- **Campaign Groups**: collect many campaigns together.
 - **Post Campaigns**: Train employees after they fail.
 - **Emulations**: Test email security.
 - **Attacks**: Simple phishing actions.

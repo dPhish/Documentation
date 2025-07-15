@@ -15,6 +15,6 @@ emails opened or clicked or got the credential from the included website templat
 
 - **Campaigns:** Specifically created to simulate attacks on individuals during various scenarios
 - **Campaign Groups:** Manage more than one campaign on same time
-- `Post Campaigns:` Enhance user awareness after fails on tha campaigns
-- `Emulations:` Test the effectiveness of email security controls
-- `Attacks:` simple description
+- **Post Campaigns:** Enhance user awareness after fails on the campaigns
+- **Emulations:** Test the effectiveness of email security controls
+- **Attacks:** simple description

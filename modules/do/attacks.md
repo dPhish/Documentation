@@ -10,7 +10,7 @@ Upon accessing the `Attacks tab`, users will encounter key indicators at the top
 ***
 ### Attacks Features
 
-- **Attacks Details** A comprehensive information bar is situated above the attacks, displaying essential details such as the attack name, GUID, Description, Actor, Author Name, Type, Tactic, Technique and available actions for further management
+- **Attacks Details** A comprehensive information bar is situated above the attacks, displaying essential details such as the attack name, GUID, Description, Actor, Author Name, Type, Tactic, Technique and available actions for further management.
     
     1. **Name** The name of the attacks.
 
@@ -43,8 +43,7 @@ Upon accessing the `Attacks tab`, users will encounter key indicators at the top
         3. Author Name
         4. Technique
         5. Tactic
-        6. Description
-
+        
 ***
 
 - **Creating New Attack** To create a new attack, click the `New Attack` button. This will direct you to the emulation campaign creation interface.

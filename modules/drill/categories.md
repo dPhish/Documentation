@@ -12,7 +12,7 @@ In the `Categories tab`, key indicators at the top display the total number of c
 
  - ### Categories Details and Metadata 
 
-    A comprehensive information bar is located above the stories, displaying essential details for effective stories management. The following components are included:
+    A comprehensive information bar is located above the Categories, displaying essential details for effective Categories management. The following components are included:
 
     1. #### Name
 

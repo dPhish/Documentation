@@ -14,7 +14,7 @@
     
     1. **Campaign Name**
 
-    2. **Description** Each post-campaign performs a single action once a specific condition is met, such as:
+    2. **Description** A brief overview of the Emulation campaign, such as:
 
         - **Intervals (Sec)** The interval is the time, in seconds, that separates each attack when the emulation campaign is launched. Setting an interval is important because it allows you to test the effectiveness of security controls. Sending attacks too quickly could cause them to be blocked by rules unrelated to individual payloads, rather than by the mail gateway's targeted defenses.
 
@@ -32,8 +32,8 @@
         
         - **Search Functionality** Located at the top right corner, the search button allows you to find a campaign by its name quickly.
 
-        - **Filtering Options** •	A filter button is available next to the search button. This feature allows you to refine your campaign search based on the following criteria:
 ***
+
 - **Creating New Emulation** To create a new emulation campaign, click the **New Emulation** button. This will direct you to the emulation campaign creation interface
 
 ![Do-Phish create!](../../assets/do/emulations/create.png "Do-Phish create")

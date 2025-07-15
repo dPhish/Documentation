@@ -1,6 +1,6 @@
 ## Overview
 
-> The `Reports` tab provides administrators with all necessary reports covering the `Do`, `Drill`, and `Detect`, offering detailed insights for each phase.
+> The `Reports` tab provides administrators with all necessary reports covering the `Do`, `Drill`, `Detect`, `General` and `Utilities`, offering detailed insights for each phase.
 
 # Main Page
 
@@ -23,12 +23,24 @@ Upon accessing the `Reports tab`, users encounter key indicators at the top of t
         1. **Do**
         2. **Drill**
         3. **Detect**
+        4. **General**
+        5. **Utilities**
 
 - ### Executive Report
 
-    - The Executive `Report` button generates a comprehensive report covering all modules (`Do`, `Drill`, `Detect`). Upon triggering the button, an email will be sent to the registered admin panel email, allowing him to download the report directly.
+    - The Executive `Report` button generates a comprehensive report covering all modules (`Do`, `Drill`, `Detect`, `General`, `Utilities`). Upon triggering the button, an email will be sent to the registered admin panel email, allowing him to download the report directly.
 
     ![Analytics-Phish reports executive button!](../../assets/analytics/reports/report_button.png "Analytics-Phish reports executive button")
+
+    ---
+
+    - The `HTML` and `PDF` export icons used in Executive Report view
+
+        1. **Download HTML Report:** This button allows you to download the report in HTML format.
+        2. **Download PDF Report:** This button allows you to download the report in PDF format.
+
+    ![Analytics-Phish reports executive report!](../../assets/analytics/reports/executive_report.png "Analytics-Phish reports executive report")
+
 
 ---
 

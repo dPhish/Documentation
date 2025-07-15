@@ -21,7 +21,7 @@
 
 - ### Filtering Options
 
-    - Next to the `Search` button, the `Filter` button allows you to search based on the users’ `email`, `role`, and `active status`.
+    - Next to the `Search` button, the `Filter` button allows you to search based on the users’ `email` and `active status`.
 
 ---
 

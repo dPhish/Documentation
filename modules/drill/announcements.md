@@ -118,7 +118,7 @@ creation process.
 
     2. Import Targets  
 
-        This button enables you to upload a bulk list of targets to your phishing campaign using two methods: 
+        This button enables you to upload a bulk list of targets to your awareness campaign using two methods: 
 
         - **CSV Sample**: When selected, a CSV template containing the necessary data fields will be downloaded automatically. After filling in your target information, select the completed file and upload it to the system. 
 
@@ -148,12 +148,12 @@ creation process.
     7. Actions
 
         - Tracker 
-            The **“Tracker”** button allows administrators to monitor the interactions and actions of a specific target throughout the campaign duration. This feature provides real-time insights into the target’s engagement and response to the campaign since its launch The Track Target Actions button allows administrators to monitor the interactions and actions of a specific target throughout the campaign duration. This feature provides real-time insights into the target’s engagement and response to the campaign since its launch. 
+           button allows administrators to monitor the interactions and actions of a specific target throughout the campaign duration. This feature provides real-time insights into the target’s engagement and response to the campaign since its launch The Track Target.
 
         ![Drill-Phish announcements tracker action button!](../../assets/drill/announcements/target_action_button.png "Drill-Phish announcements tracker action button")
 
         - Tracker Details 
-            The **“Tracker Details”** feature provides in-depth information on specific actions taken by a target. This includes details such as the location from which the target submitted their credentials, IP address, VPN usage, and the user agent (e.g., Chrome, Microsoft Edge) used for access. This detailed view supports security monitoring and enhances understanding of target behavior within the campaign. 
+            Feature provides in-depth information on specific actions taken by a target. This includes details such as the location from which the target submitted their credentials, IP address, VPN usage, and the user agent (e.g., Chrome, Microsoft Edge) used for access. This detailed view supports security monitoring and enhances understanding of target behavior within the campaign. 
         
         ![Drill-Phish announcements tracker details for specific target!](../../assets/drill/announcements/details_specific_target.png "Drill-Phish announcements tracker details for specific target")
 
