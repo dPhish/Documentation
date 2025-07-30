@@ -10,25 +10,27 @@ Upon accessing the `Attacks tab`, users will encounter key indicators at the top
 ***
 ### Attacks Features
 
-- **Attacks Details** A comprehensive information bar is situated above the attacks, displaying essential details such as the attack name, GUID, Description, Actor, Author Name, Type, Tactic, Technique and available actions for further management.
+- **Attacks Details** A comprehensive information bar is situated above the attacks, displaying essential details such as the Attack name, Payload, GUID, Description, Actor, Author Name, Type, Tactic, Technique and available actions for further management.
     
     1. **Name** The name of the attacks.
 
-    2. **GUID** Each attack has its own Global Unique Identifier (GUID), which can be used for searching and identification.
+    2. **Payloads** The number of payloads.
 
-    3. **Description** A brief overview of the attack.
+    3. **GUID** Each attack has its own Global Unique Identifier (GUID), which can be used for searching and identification.
 
-    4. **Actor** The Individual or entity associated with the attack.
+    4. **Description** A brief overview of the attack.
 
-    5. **Author Name** The name of the author who created the attack.
+    5. **Actor** The Individual or entity associated with the attack.
+
+    6. **Author Name** The name of the author who created the attack.
     
-    6. **Type** The classification of the attack.
+    7. **Type** The classification of the attack.
     
-    7. **Tactic** The overall strategy employed in the attack.
+    8. **Tactic** The overall strategy employed in the attack.
 
-    8. **Technique** The specific methods used within the attack.
+    9. **Technique** The specific methods used within the attack.
 
-    9. **Actions**
+    10. **Actions**
         - **View**: View detailed information about the attack.
         - **Edit**: Modify the attack's configurations.
         - **Delete**: Permanently remove the attack.
@@ -61,10 +63,6 @@ Upon accessing the `Attacks tab`, users will encounter key indicators at the top
 - **Type:** The type of attack `URL`, `File`. (Required Field)
 
 - **Author Name:** The name of the author who created the attack.
-
-- **Author Twitter:** The Twitter handle of the author.
-
-- **Author LinkedIn:** The LinkedIn profile of the author.
 
 - **Description:** A brief overview of the attack.
 
