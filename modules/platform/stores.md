@@ -82,6 +82,8 @@
     
     ![Platform-Phish stores sync courses button!](../../assets/platform/stores/sync_course_button.png "Platform-Phish stores sync courses button")
 
+    **Force Update Courses:** button makes all the existing courses exactly the same as those in our store. So, if there have been any changes to any content, it will be updated correctly to match the latest version available in the store.
+
 ---
 
 ## Attacks

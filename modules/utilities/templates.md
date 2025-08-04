@@ -46,5 +46,9 @@ Upon accessing the `Templates tab`, users encounter key indicators at the top of
 
     ![utilities-Phish template add new!](../../assets/utilities/templates/add_template.png "utilities-Phish template add new")
 
+    ---
+    
+    - You can `drag` and `drop` the content you want to create your template, whether you're going to use it for a phishing campaign or an awareness campaign.
+
 > [!NOTE]
 > The same Integrated Development Environment (IDE) is used when editing an existing template.

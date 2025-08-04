@@ -34,6 +34,7 @@
 | Story Accents      | Allows the admin to specify the accents of the LMS stories available to drill users separated by commas. The available accents include: <ul><li>**EN**: English </li><li> **AR**: Arabic</li><li> **EG**: Egyptian</li><li> **SA**: Saudi</li></ul>           | ar,eg,sa,en |
 | Policy Accents      | Allows the admin to specify the accents of the policy content available to drill users. Similar to the Story Accents, the available accents are: <ul><li>**EN**: English </li><li> **AR**: Arabic</li><li> **EG**: Egyptian</li><li> **SA**: Saudi</li></ul>   | ar,eg,sa,en |
 | Favicon      | This setting allows the admin to upload a custom favicon, which is the small icon displayed in the browser tab next to the page title when the LMS platform is accessed. <img src="/assets/settings/lms/favicon.png" width="100%" height="50">   |     |
+| Enable OTP                 | **Enable OTP** button requires users to enter an OTP sent to their email when they try to log in. If this button is turned off, users can access the platform directly without being asked for an OTP. <img src="/assets/settings/lms/enable_otp.png" width="60%" height="60%">   | enabled   |
 | certificate logo size      | This setting allows the admin to specify the size of the logo that will appear on the certificates issued through the LMS. <img src="/assets/settings/lms/certificate_logo_size.png" width="100%" height="100">   |  100   |
 | footer logo size     | This setting allows the admin to specify the size of the logo that will appear in the footer of the LMS pages. <img src="/assets/settings/lms/footer_logo_size.png" width="100%" height="100">   |  100   |
 | header logo size    | This setting allows the admin to define the size of the logo displayed in the header of the LMS pages. <img src="/assets/settings/lms/header_logo_size.png" width="100%" height="100">   |  100   |
@@ -146,3 +147,15 @@
 
 > [!NOTE]
 > - Ensure the sender password is accurate to avoid email delivery issues.
+
+
+## User Menu Items
+
+- **View As User:** Allows the admin to access and view the LMS, without having to log out of the platform.
+- **Change Password:** Allows the admin to change the password of their own account.
+- **Tags:** Displays all the tags available on the platform.
+- **Logout:** Allows the admin to log out from the platform.
+
+![Platform-Phish User Menu Items!](../../assets/settings/dropdown.png "Platform-Phish User Menu Items")
+
+---
