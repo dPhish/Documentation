@@ -99,6 +99,7 @@
 | Notify User On Each Escalation   | When enabled, this setting ensures that users will receive notifications for every escalation related to a course deadline, as per the defined escalation days.  | Enabled   |
 | Notify User On Course Deletion   | `When enabled, this setting ensures that users are notified whenever a course assigned to them is deleted from the system.`  | Enabled      |
 | Fast Login   | When enabled, this setting allows users to bypass the standard login process by enabling a quicker authentication method.       |  Enabled     |
+| Fast Login Duration   | the amount of time a user session remains valid after a fast or simplified login method. <img src="/assets/settings/lms/fast_login_duration.png" width="40%" height="50%">                          |  Duration by days     |
 | Tracking Hosts   |    This setting allows you to specify the tracker hosts to be used in the simulation campaign. You can enter multiple tracker hosts, separated by commas.      | Each customer is provided with the necessary tracker hosts     |
 | Notification OTP   |       | OTP For dPhish    |
 | Notification New Course   |       | dPhish New Course   |
@@ -148,6 +149,17 @@
 > [!NOTE]
 > - Ensure the sender password is accurate to avoid email delivery issues.
 
+
+## Tokens
+
+- **SMS Token:** a secret API token used to authenticate and authorize your system when sending SMS messages through an external SMS gateway or service provider.
+- **ChatGPT Token:** a secret API key used to authenticate your application or system when interacting with OpenAI's ChatGPT API.
+- **Mail Editor Key:** a secret token used to allow the system or any external client to access or interact with the mail editor securely.
+- **WHOIS API Token:** a secret authentication key that allows your application or system to access WHOIS information about domain names through a WHOIS API service.
+
+![Platform-Phish Tokens tab!](../../assets/settings/tokens_tab.png "Platform-Phish Tokens tab")
+
+---
 
 ## User Menu Items
 
