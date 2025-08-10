@@ -9,6 +9,22 @@
 
 ## Users Features
 
+- ### Users Details and Outer Metadata
+    - A comprehensive information bar is located above the users, displaying essential details for effective user management. The following components are included:
+
+    **User Name:** The user name of the user.
+
+    **Full Name:** The full name of the user.
+
+    **Email:** The email address of the user.
+
+    **Creation Date:** Tracking when each user account was created.
+
+    **Roles:** The Role of the user.
+
+    **Active:** Shows the status of the user (active or inactive).
+
+
 - ### Actions Features
 
     - Change Password
@@ -73,6 +89,6 @@
     - **How to**: To delete a user, click on `Actions` next to the user and select `Delete`. A pop-up will appear warning you with the following “You will not be able to recover it once it is deleted.”
 
 > [!NOTE]
-> Only administrators have the authority to edit for both admin users and drill users.
+> Only administrators have the authority to delete for both admin users and drill users.
 
 ![Platform-Phish user delete user!](../../assets/platform/users/delete_user.png "Platform-Phish user delete user")
