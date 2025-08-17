@@ -17,18 +17,26 @@ The user interface consists of multiple elements, and each will be explained bel
    ---
 
 4. Exports the listing data, all the analyzed emails, in CSV, XLS, or JSON format.
-5. Submits a new email, .eml file, for analysis. 
-6. **Subject**: The subject of the reported email.
-7. **Source**: The source of the reported email. It either be addon, API, or Web.
-8. **User**: The user that reported the email. The format of this value changes based on the source.
-9. **Matched Rules**: The total number of detection rules that matched the reported email.
-10. **Severity**: The overall severity of the reported email. It can be clean, informational, Low, Medium, High, and Critical.
-11. **Attachments**: The total number of attachments in the reported email.
-12. **Links**: The total number of URLs in the body of the reported email.
-13. **Reported At**: Email report timestamp.
-14. **Status**: The status of the reported email. It can be open, In Progress, Resolved, or False Positive. 
-15. **Actions**: Enables the security analyst to take further actions on the reported email. It will be explained shortly.
-16. The current listing page.
+5. **Emails Analyzed Task**: This part displays what are emails that are being analyzed right now and what is the status of each task of them.
+
+    ![Detect-Phish analyzed emails task!](../../assets/detect/analyzedEmails/emails_analyzed_tasks.png "Detect-Phish analyzed emails task")
+
+    - From the following menu, you can terminate the task that you want to stop:
+
+    ![Detect-Phish analyzed emails terminate!](../../assets/detect/analyzedEmails/task_terminate.png "Detect-Phish analyzed emails terminate")
+    
+6. **Submit Email**: Submits a new email, .eml file, for analysis. 
+7. **Subject**: The subject of the reported email.
+8. **Source**: The source of the reported email. It either be addon, API, or Web.
+9. **User**: The user that reported the email. The format of this value changes based on the source.
+10. **Matched Rules**: The total number of detection rules that matched the reported email.
+11. **Severity**: The overall severity of the reported email. It can be clean, informational, Low, Medium, High, and Critical.
+12. **Attachments**: The total number of attachments in the reported email.
+13. **Links**: The total number of URLs in the body of the reported email.
+14. **Reported At**: Email report timestamp.
+15. **Status**: The status of the reported email. It can be open, In Progress, Resolved, or False Positive. 
+16. **Actions**: Enables the security analyst to take further actions on the reported email. It will be explained shortly.
+17. The current listing page.
 
 The true power of the dPhish Detect module is in the capabilities it provides to a security analyst to perform the triaging as efficiently as possible. The Actions menu, number 15 in the previous screen, provides the analyst with such capabilities. 
 

@@ -15,24 +15,29 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 - ### Target Details and Additional Metadata
 
     - A comprehensive information bar above the targets provides essential details such as the target name, UUID, title, department, mail, phone, location, manager, company, tags, and actions for further management.
-
-        1. **Target Name**: The name of the target.
-        2. **UUID**: Universal Unique Identifier (UUID) for the target.
-        3. **Title**: The title or position of the target.
-        4. **Department**: The department to which the target belongs.
-        5. **Mail**: The email address of the target.
-        6. **Phone**: The phone number of the target.
-        7. **Location**: The physical location of the target.
-        8. **Manager**: The manager associated with the target.
-        9. **Company**: The company the target is part of.
-        10. **Tags**: Labels or tags assigned to the target for categorization.
-        11. **Actions**:
+        
+        1. **Checkboxes**: are available for selecting multiple targets for bulk actions.
+        2. **Target Name**: The name of the target.
+        3. **UUID**: Universal Unique Identifier (UUID) for the target.
+        4. **Title**: The title or position of the target.
+        5. **Department**: The department to which the target belongs.
+        6. **Mail**: The email address of the target.
+        7. **Phone**: The phone number of the target.
+        8. **Location**: The physical location of the target.
+        9. **Manager**: The manager associated with the target.
+        10. **Company**: The company the target is part of.
+        11. **Tags**: Labels or tags assigned to the target for categorization.
+        12. **Arrows**: The sorting feature in column headers.
+        12. **Actions**:
             - `View`: View target’s information.
             - `Edit`: Edits target’s information.
             - `Create Drill Account`: Create drill user for specific target, granting them access to the LMS.
             - `Delete`: Deletes the target from the system.
 
     ![utilities-Phish target actions button!](../../assets/utilities/target/target_actions_button.png "utilities-Phish target actions button")
+
+> [!NOTE]
+> Columns such as `Name` and `Mail` are sortable using the provided arrows in order descending.
 
 ---
 
