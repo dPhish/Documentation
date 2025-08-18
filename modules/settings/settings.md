@@ -43,6 +43,8 @@
 | Cyber Aware Subject  |          |  Stay Cyber Aware   |
 | Email Notification Logo   | Upload a logo to be displayed within email notifications sent from the system. <img src="/assets/settings/lms/email_notification_logo.png" width="100%" height="100">   |     |
 | wide logo   | Represents the header logo displayed in the LMS.  |     |
+| LMS Guide AR   | It's a video in Arabic that explains how the user interacts with lms. <img src="/assets/settings/lms/lms_guide.png" width="100%" height="100">   |     |
+| LMS Guide EN   | It's a video in English that explains how the user interacts with lms. <img src="/assets/settings/lms/lms_guide.png" width="100%" height="100">   |     |
 | New Joiners Auto Assign   | Automatically adds newly created drill users to a designated "New Joiners" drill group. If this group is already assigned to a course, any newly added user will be automatically enrolled in that course.  |    enabled   |
 | Footer Text Arabic  | Enter the text that will appear in the footer of the platform when displayed in Arabic.  |    مركزة جميع المهام المتعلقة بمكافحة التصيد الاحتيالي في منصة واحدة لتحقيق أقصى قدر من العائد بأسعار تنافسية بما في ذلك منصة التوعية، وتقييم التصيد الاحتيالي، والمكونات الإضافية لإعداد التقارير، والكشف عن تهديدات البريد الإلكتروني والاستجابة لها.   |
 | Support Email   | Specify the email address that will be used for support-related communication. |  support@dphish.com   |

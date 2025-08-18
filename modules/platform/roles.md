@@ -214,6 +214,8 @@ The Response module requires permissions from:
 The Reports module requires permissions from:
 - **Report**  
 
+- It's related to all the reports available on the platform, across any of the modules, depending on which module you need to grant permissions for.
+
 ### 2) Trackers
 The Trackers module requires permissions from:
 - **Tracker**  
@@ -287,3 +289,14 @@ The Email Services module requires permissions from:
 ### 9) Email Templates
 The Email Templates module requires permissions from:
 - **Template**
+
+---
+
+## Tag
+The permission grants you access to the tag, whether you want to add, delete, modify, or just view it.
+
+---
+
+## Entity
+a tenant-like structure within the platform that represents an isolated environment, and users can switch between these environments to perform different tasks , It exists within a parent-child hierarchy and its creation is strictly controlled through a central "main entity," managed by an admin user.   
+The permission grants you access to the entity, whether you want to add, delete, modify, or just view it.

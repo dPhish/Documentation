@@ -95,6 +95,12 @@ Each course in the admin panel and LMS is defined by the following metadata fiel
 
 ![Drill-Phish courses new course configuration!](../../assets/drill/courses/add-new-course-configuration.png "Drill-Phish courses new course configuration")
 
+- You can change the certificate content for each course.
+
+    ![Drill-Phish courses certificate content!](../../assets/drill/courses/certificate_content.png "Drill-Phish courses certificate content")
+
+---
+
 ## Managing Course
 
 After creating a course, you can manage it by selecting **Actions** and then **View** for the desired course. This will take you to the course management panel, where you can manage its content, categories, enrolled users, groups, quizzes, FAQs, and comments.
@@ -190,6 +196,16 @@ To delete content, select **Actions** next to the desired content and choose **D
 > The system allows to sort users by column headers by `Username` to help administrators organize and analyze users of course efficiently.
 
 1. #### Assign User
+
+    - you can see all the users who have been assigned to this course.
+
+    ![Drill-Phish courses users assign!](../../assets/drill/courses/assign_user_course.png "Drill-Phish courses users assign")
+
+    - You can go and assign any user from those who have been assigned, and you can click on 'Track' if you want to know their progress in the course.
+
+    ![Drill-Phish courses users assign options!](../../assets/drill/courses/assign_user_option.png "Drill-Phish courses users assign options")
+
+    ---
 
     There are 5 methods to assign a course to users, each with its own logic:
 
