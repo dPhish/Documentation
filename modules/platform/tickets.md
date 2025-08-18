@@ -7,7 +7,7 @@ dPhish provides a comprehensive ticketing system to manage all services it cover
     2. Track ticket statuses and updates throughout the resolution process.
     3. Manage and close tickets efficiently to ensure streamlined support.
     
-    ![Platform-Phish tickets main!](../../assets/platform/tickets/tickets_main.png "Platform-Phish tickets main")
+    ![Platform-Phish tickets main!](../../assets/platform/tickets/tickets_view.png "Platform-Phish tickets main")
 
 ---
 
@@ -102,7 +102,7 @@ dPhish provides a comprehensive ticketing system to manage all services it cover
     8. **Comments:** The comments that are written by users in the ticket (reporter & assignee).
     9. **Reply Section:** You can write a reply in this area to send it to the reporter user.
 
-    ![Platform-Phish ticket view details!](../../assets/platform/tickets/ticket_details.png "Platform-Phish ticket view details")
+    ![Platform-Phish ticket view details!](../../assets/platform/tickets/ticket_reply.png "Platform-Phish ticket view details")
 
     10. **Send Reply:** This button will send the reply to the reporter.  
     11. **Close Ticket:** This button will close the ticket.
