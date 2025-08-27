@@ -102,7 +102,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
 - **To download the CSV template**: navigate to `Utilities module` > `Import Targets` > `CSV Sample`
 
-![utilities-Phish target csv sample path!](../../assets/utilities/target/target_csv_sample_path.png "utilities-Phish target csv sample path")
+![utilities-Phish target csv sample path!](../../assets/utilities/target/new_target_button.png "utilities-Phish target csv sample path")
     
 
 ![utilities-Phish target csv sample button!](../../assets/utilities/target/target_csv_sample_button.png "utilities-Phish target csv sample button")
@@ -136,7 +136,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
     6. Get back to `Targets tab` Use Sync Button to import the targets from the active directory.
 
-    ![utilities-Phish target sync button!](../../assets/utilities/target/target_sync_button.png "utilities-Phish target sync button")
+    ![utilities-Phish target sync button!](../../assets/utilities/target/new_target_button.png "utilities-Phish target sync button")
 
 ---
 ## Azure/O365 Integration
@@ -199,7 +199,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
 
     6. Get back to `Targets tab` Use Sync Button to import the targets from the active directory.
 
-        ![utilities-Phish target sync button!](../../assets/utilities/target/target_sync_button.png "utilities-Phish target sync button")
+        ![utilities-Phish target sync button!](../../assets/utilities/target/new_target_button.png "utilities-Phish target sync button")
     
 - ### Create Drill Accounts
 
@@ -214,7 +214,7 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
     - **Purpose**: Provide LMS access to a large number of targets.
     - **How to**: Click the `Create Drill Accounts` button. The system will automatically generate accounts for all targets in the system and send them an email with their access credentials.
 
-        ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/drill_account_button.png "utilities-Phish target Create Drill Accounts Button")
+        ![utilities-Phish target Create Drill Accounts Button!](../../assets/utilities/target/new_target_button.png "utilities-Phish target Create Drill Accounts Button")
 
         ---
 
@@ -223,8 +223,6 @@ Upon accessing the `Target tab`, users encounter key indicators at the top of th
     - **Create drill account to a specific target**
     - **Purpose**: Provide LMS access to a single target.
     - **How to**: Click the `Actions` button next to the desired target, then select `Create Drill Account` to generate their account.
-
-        ![utilities-Phish target specific action button!](../../assets/utilities/target/target_specific_action_button.png "utilities-Phish target specific action button")
 
         ![utilities-Phish target single create drill account!](../../assets/utilities/target/single_create_drill_account.png "utilities-Phish target single create drill account")
 
