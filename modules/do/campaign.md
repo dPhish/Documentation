@@ -124,6 +124,153 @@ wizard entails:
 
 ***
 
+## Campaign attacks
+
+1. Regular Attachment  
+    - This is a regular attachment without any trackers.
+
+2. [IcedID] ISO File Contains LNK File Executing BAT File  
+    
+    - **Flow**: Mail Sent > Mail Openeded > Target Exploited  
+    - **Steps**: 
+        - .iso file will be sent to the target, when the target open the iso or extract it, he will get the following:  
+            
+            ![Do-Phish Create Campaigns IcedID!](../../assets/do/icedFile.png "Do-Phish Create Campaigns IcedID")
+
+        - max: a Folder containing 2 files: “easygoing.dat” and “eyewear.bat”  
+
+            ![Do-Phish Create Campaigns Folder!](../../assets/do/fileBat.png "Do-Phish Create Campaigns Folder")
+
+        - documents.lnk: which after click on it, execute “eyewear.bat” file located in “max” folder.  
+        - After executing “eyewear.bat” file, it will send `Target Exploited` tracker to the platform:
+
+            ![Do-Phish Create Campaigns Target Exploited!](../../assets/do/targetExploited.png "Do-Phish Create Campaigns Target Exploited")
+
+        And a message box will appear to the target like this:  
+
+        ![Do-Phish Create Campaigns Target Example!](../../assets/do/targetExample.png "Do-Phish Create Campaigns Target Example")
+
+3. Google Translate Redirection (URL Attack)  
+    - **Flow**: Mail Sent > Mail Openeded > Link Opened > Credential Saved  
+    - **Steps**: 
+        - This is a normal Campaign with Page but the url {{url}} in the email is creafted to be look it is going to the official Google Translate website, but the URL will redirect the target to the phishing page:
+
+    ![Do-Phish Create Campaigns URL Attack!](../../assets/do/urlAttack.png "Do-Phish Create Campaigns URL Attack")
+
+    - **URL Format**: https://translate.google.com/translate?sl=en&tl=en-US&hl=en-US&u=LINK_TO_PHISHING_PAGE &client=webapp  
+
+    >[!Note]
+    >The URL in the email template will be written as {{url}} with no differences.
+
+4. Document Template Injection
+
+    - **Flow**: Mail Sent > Mail Openeded > Stager Downloaded > Target Exploited  
+    - **Steps**: 
+
+        ![Do-Phish Create Campaigns Template Injection!](../../assets/do/documentTemplate.png "Do-Phish Create Campaigns Template Injection")
+
+        - When the target opens the .docx file and click `Enable Content` / `Enable Editing`, a tracker “Stager Downloaded” will be sent to the platform and a .dotm file will be automatically downloaded and executed which will send another tracker “Target Exploiteded” to the platform.
+
+5. SVG File  
+    - **Flow**: Mail Sent > Mail Openeded > File Openeded  
+    - **Steps**: 
+        - The target will receive SVG file called Attachment.svg.  
+        - After opening the SVG file, a tracker “File Openeded” will be sent to the platform.
+
+        ![Do-Phish Create Campaigns SVG File!](../../assets/do/svgFile.png "Do-Phish Create Campaigns SVG File")
+
+6. SVG File Downloading BAT File  
+    - **Flow**: Mail Sent > Mail Openeded > File Openeded > Stager Downloaded > Target Exploited  
+    - **Steps**:  
+        - The target will receive SVG file called Attachment.svg.  
+        - After opening the SVG file, trackers “File Openeded” and “Stager Downloaded” will be sent to the platform and .bat file will be downloaded automatically.
+
+        ![Do-Phish Create Campaigns Bat File!](../../assets/do/batFile.png "Do-Phish Create Campaigns Bat File")
+
+        If the target opens the .BAT file, it will send “Target Exploited” tracker to the platform and show a message box to the target saying, “You have been Compromised!”:
+
+        ![Do-Phish Create Campaigns Target Bat File!](../../assets/do/targetBatFile.png "Do-Phish Create Campaigns Target Bat File")
+
+7. SVG File Downloading HTA File  
+    - **Flow**: Mail Sent > Mail Openeded > File Openeded > Stager Downloaded > Target Exploited  
+    - **Steps**:  
+        - The target will receive SVG file called Attachment.svg.  
+        - After opening the SVG file, trackers “File Openeded” and “Stager Downloaded” will be sent to the platform and .hta file will be downloaded automatically.
+
+        ![Do-Phish Create Campaigns Svg HTA File!](../../assets/do/htaFile.png "Do-Phish Create Campaigns Svg HTA File")
+
+        If the target opens the .HTA file, it will send “Target Exploited” tracker to the platform  and show a message box to the target saying, “You have been Compromised!”:
+
+        ![Do-Phish Create Campaigns Target Svg HTA File!](../../assets/do/targetHta.png "Do-Phish Create Campaigns Target Svg HTA File")
+
+8. HTA File  
+    - **Flow**: Mail Sent > Mail Openeded > File Openeded > Target Exploited  
+    - **Steps**:  
+        - The target will receive HTA file called Attachment.hta.  
+        - After opening the HTA file, trackers “File Openeded” and “Target Exploited” will be sent to the platform, and a message box will be displayed saying “You have been Compromised!”:
+
+        ![Do-Phish Create Campaigns HTA File!](../../assets/do/htaAttachement.png "Do-Phish Create Campaigns HTA File")
+
+9. XLSX File with tracking  
+    (This attack has an issue in its structure and we will create a ticket for CST to solve it, if they can’t, it may be deleted and replaced with a new attack that hasn’t been added to the production environment yet “Excel File Injection”)
+
+10. XLM Macro Enabled File  
+    - **Flow**: Mail Sent > Mail Opened > File Openeded  
+        - This Excel sheet contains macros that trigger the File Opened tracker.  
+    - **Steps**:  
+        - The target will receive `Excel` file called `Attachment.xlsm`.  
+        - After opening the `Excel` file, trackers “File Openeded”
+
+11. HTML File  
+    - Mail Sent > Mail Opened > File Opened  
+    - This HTML file contains JavaScript code that silently triggers a tracker in the background without the victim’s awareness. It can also be customized by replacing the HTML content with any desired material, while still triggering the tracker in the background.
+
+12. Qbot PDF With Link To ZIP ISO WSF   
+    - Mail Sent > Mail Openeded > Stager Downloaded > Target Exploited  
+    - attack starts with a `PDF` file that looks normal but has a picture inside.
+    
+    ![Do-Phish Create Campaigns Qbot PDF!](../../assets/do/qbotWsf.png "Do-Phish Create Campaigns Qbot PDF")
+
+    - When you click the picture, it downloads a `ZIP` file.
+
+     ![Do-Phish Create Campaigns ZIP File!](../../assets/do/zipFile.png "Do-Phish Create Campaigns ZIP File")
+
+    - Inside the ZIP is an `ISO` file (like a virtual CD).
+
+    ![Do-Phish Create Campaigns ISO File!](../../assets/do/isoFile.png "Do-Phish Create Campaigns ISO File")
+
+    - When you open the `ISO`, it shows a `WSF` file.
+
+    ![Do-Phish Create Campaigns WSF File!](../../assets/do/wsfFile.png "Do-Phish Create Campaigns WSF File")
+
+    - When you run this WSF it will show you this
+
+    ![Do-Phish Create Campaigns WSF File Message!](../../assets/do/wsfMessage.png "Do-Phish Create Campaigns WSF File Message")
+
+13. Qbot PDF With Link To ZIP ISO CMD WSF
+    - Mail Sent > Mail Openeded > Stager Downloaded > Target Exploited  
+    - attack starts with a `PDF` file that looks normal but has a picture inside.
+
+    ![Do-Phish Create Campaigns Qbot PDF!](../../assets/do/qbotWsf.png "Do-Phish Create Campaigns Qbot PDF")
+
+    - When you click the picture, it downloads a `ZIP` file.
+
+    ![Do-Phish Create Campaigns ZIP File!](../../assets/do/zipFile.png "Do-Phish Create Campaigns ZIP File")
+
+    - Inside the ZIP is an `ISO` file (like a virtual CD).  
+
+    ![Do-Phish Create Campaigns ISO File!](../../assets/do/isoFile.png "Do-Phish Create Campaigns ISO File")
+
+    - When you open the `ISO`, it shows a `CMD` file.  
+
+    ![Do-Phish Create Campaigns CMD File!](../../assets/do/cmdFile.png "Do-Phish Create Campaigns CMD File")
+
+    If you run the `CMD` file, it executes a script – in this case it only shows a message that it was a phishing test.
+    
+    ![Do-Phish Create Campaigns CMD File Message!](../../assets/do/cmdMessage.png "Do-Phish Create Campaigns CMD File Message")
+
+***
+
 ## Managing Campaign
 After creating a campaign, you can manage it by selecting `Actions` and choosing `View`, or you will be automatically redirected to the management interface upon completing the
 creation process.
