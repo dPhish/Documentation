@@ -547,12 +547,13 @@
       };
    
 
-      const API_BASE_URL = window.APP_CONFIG.apiBaseUrl;
-      const LOGIN_ENDPOINT = window.APP_CONFIG.loginEndpoint;
-      
-      console.log('window?.location?.hostname', window?.location?.hostname)
-      console.log('window?.location', window?.location)
-      
+      // const API_BASE_URL = window.APP_CONFIG.apiBaseUrl;
+      // const LOGIN_ENDPOINT = window.APP_CONFIG.loginEndpoint;
+
+      const BaseUrl = window.location.origin
+      const LoginEndPoint = '/api/api-auth/login/'
+    
+
       document.getElementById('loginForm').addEventListener('submit', async function(e) {
         e.preventDefault();
         
@@ -565,7 +566,7 @@
         
         try {
 
-           const response = await fetch(`${API_BASE_URL}${LOGIN_ENDPOINT}`, {
+           const response = await fetch(`${BaseUrl}${LoginEndPoint}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username, password }),
