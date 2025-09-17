@@ -102,6 +102,7 @@
 | Notify User On Course Deletion   | `When enabled, this setting ensures that users are notified whenever a course assigned to them is deleted from the system.`  | Enabled      |
 | Fast Login   | When enabled, this setting allows users to bypass the standard login process by enabling a quicker authentication method.       |  Enabled     |
 | Fast Login Duration   | the amount of time a user session remains valid after a fast or simplified login method. <img src="/assets/settings/lms/fast_login_duration.png" width="40%" height="50%">                          |  Duration by days     |
+| TI Confidence Level   | This is the risk level of the email that's determined in OpenCTI. The email gets a confidence level so I can compare it on my side and know whether it's dangerous or not. <img src="/assets/settings/ti_confidence.png" width="40%" height="50%">                          |  75    |
 | Tracking Hosts   |    This setting allows you to specify the tracker hosts to be used in the simulation campaign. You can enter multiple tracker hosts, separated by commas.      | Each customer is provided with the necessary tracker hosts     |
 | Notification OTP   |       | OTP For dPhish    |
 | Notification New Course   |       | dPhish New Course   |
