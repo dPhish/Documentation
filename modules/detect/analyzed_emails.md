@@ -17,7 +17,7 @@ The user interface consists of multiple elements, and each will be explained bel
    ---
 
 4. Exports the listing data, all the analyzed emails, in CSV, XLS, or JSON format.
-5. **Emails Analyzed Task**: This part displays what are emails that are being analyzed right now and what is the status of each task of them.
+5. **Emails Analyzed Task**: This part displays the emails that are being analyzed right now and the status of each of their tasks.
 
     ![Detect-Phish analyzed emails task!](../../assets/detect/analyzedEmails/emails_analyzed_tasks.png "Detect-Phish analyzed emails task")
 
