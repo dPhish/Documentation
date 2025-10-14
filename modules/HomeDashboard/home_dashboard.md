@@ -57,6 +57,10 @@
 11. **Mail Reported Timeline**: Tracks the daily count of simulation campaign emails that have been reported by targets over a given time period.
 12. **Mail Reported By Departments**:  Displays the total number of emails reported using the add-on, categorized by departments, along with a percentage chart for better visualization.
 
+
+> [!NOTE]
+> These values ​​are unique to target and campaign.
+
 --- 
 
 ## Drill Dashboard

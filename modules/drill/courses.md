@@ -107,6 +107,12 @@ After creating a course, you can manage it by selecting **Actions** and then **V
 
 - ### Course Details and Metadata
 
+The `Sync Course` button checks if there's any additional content for the course in the store and adds it to the course.
+
+![Drill-Phish courses sync button!](../../assets/drill/courses/sync_course.png "Drill-Phish courses sync button")
+
+---
+
 This section provides comprehensive course information, including the number of students, lessons, duration, videos, skill level, and available languages & dialects.
 
 ![Drill-Phish courses metadata!](../../assets/drill/courses/course_metadata.png "Drill-Phish courses metadata")
