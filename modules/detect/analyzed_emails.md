@@ -552,16 +552,30 @@ It allows analysts to revert any automated action previously applied to the repo
 
 #### 6. Response
 
-Once an investigation of a reported email is complete and the final verdict is malicious, it’s crucial to accurately assess the situation to respond to the threat. The response feature allows analysts to search for an email, using either the sender or the subject of the email, over every mailbox in the organization. This search process, also called Scope, will aggregate all emails in the organization that match the search criteria and display them in a listing to the analyst. The UI of the response page is simple yet powerful:
+Once an investigation of a reported email is completed and the final verdict was malicious, it’s crucial to accurately assess the situation to respond appropriately to the threat. The response feature allows analysts to search for an email, using either the sender, the subject of the email, or both over every mailbox in the organization. This search process, also called Scope, will aggregate all emails in the organization that match the search criteria and display them in a listing to the analyst. The UI of the response page is simple yet powerful:
 
-1.  **Delete**: Delete the selected email from the view page. This will delete the email from the mailbox of the reported.
-2.  **Quarantine**: Same as delete, except the mail will be quarantined instead of deleted.
-3.  **Scope by Sender**: Searches for emails in the organization that originated from sender as in the reported email.
+The main tab is divided into two sections.  
+The first section displays the **Respond to an analyzed email** that can be applied to the reported email.  
+Alongside it, the second section provides **key details about the reported email** that will be affected by the selected action.  
+This layout allows analysts to review the email context while performing response actions.
 
-![Detect-Phish analyzed emails response actions!](../../assets/detect/analyzedEmails/emails_response_actions.png "Detect-Phish analyzed emails response actions")
+![Detect-Phish analyzed emails response actions overview](../../assets/detect/analyzedEmails/analyzed_emails_response.png "Detect-Phish analyzed emails Response Actions")
 
-4.  **Scope by Subject**: Searches for emails in the organization that have the same subject as the reported email.
-5.  **Search**: Once the search is over, the page is populated with emails that matched the search criteria. Analysts can then take actions on these emails such as mass deletion or mass quarantine.
-6.  **Delete**: Deletes the selected email from the dashboard listing. Any tickets opened on the deleted entry will be deleted as well. Note that this DOES NOT delete the email from the reporter’s mailbox, that what response does, it just deletes it from the platform.
+##### Available Actions
 
-7.  **Delete**: Delete the email. This will delete the email from the mailbox of the reported.
+![Detect-Phish analyzed emails response actions!](../../assets/detect/analyzedEmails/analyzed_emails_response_actions.png "Detect-Phish analyzed emails response actions")
+
+1. **Scope**: Searches across the organization’s mailboxes for emails that match **both** the subject and sender of the reported email.
+2. **Scope by Sender**: Searches for all emails within the organization’s mailboxes that originated from the **same sender** as the reported email.
+3. **Scope by Subject**: Searches for all emails within the organization’s mailboxes that share the **same subject** as the reported email.
+4. **Delete**: Permanently deletes the matched email(s) from the mailbox of the reported user and anyone else within the organization got the same email whether reported it or not.
+5. **Quarantine**: Moves the matched email(s) to the quarantine/junk folder instead of deleting them, preventing user(s) access while retaining the email for further review.
+
+---
+
+#### 7. **Delete**
+
+Deletes the selected email from the dashboard listing. Any tickets opened on the deleted entry will be deleted as well.
+
+> [!NOTE]
+> This action **DOES NOT** delete the email from the reporter’s mailbox, that what response does, it just deletes it from the platform.
