@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://dphish.com">
-    <img alt="dphish" src="./assets/Logo Wide.png">
+    <img alt="dphish" src="./assets/Logo Wide.png" style="width: 500px">
   </a>
 </p>
 
